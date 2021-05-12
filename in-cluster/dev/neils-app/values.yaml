@@ -1,0 +1,21 @@
+applications:
+  springhelloworld:
+    configs: {
+      }
+    environmentVariables: {
+      }
+    image: clivebor/spring-helloworld:1.0.0
+    name: spring-helloworld
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: dev
+host: ahoy.cluster-02.lsdopen.io
+releaseName: neils-app
+releaseVersion: '1.0'
