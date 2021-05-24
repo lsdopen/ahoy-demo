@@ -1,27 +1,13 @@
 applications:
-  cpimagebuilder:
-    configs: {
-      }
-    dockerConfigJson: AgAxUg2UOipUhN1j6GvYPTTsOgqNS8yRdgMMhzTE1bgvzb90ZELIv/o5gmxWLZTEJMMRIVOOpBolrCxoHiMKhOQ77gWr3jmiWlyUQ36RbZZ9zlnGYfG/+8PFU7sfu5gSflt66dBUPaskf69/EMvuBxo8TDypPUz7MBwDAY8avIbB1BvuHXwqd+/sT8CRtwZUHCvKwbhqUqFrE0Jhj60w+Hx/ZWXEADFTUV75I2okeHTnNfXi47qrQzswDxdWyB9CSm3L9d+QxHYtxHHM/mf+kk56kcohtMiWQ9OIW13P4nLBS2XPrE+dGRXc141K+2XkA+iJgig8MaIi+tm73wjl4kvW0byfpQWme5EQLwozKsmOulDVz5RrwXY/meI73lGk9bLeN8WfS8uOTAUambmhKG2RWphFR3sXj72YuRCwYXnsTzrTGOcaZgRwZi4m1MUsuw0k09tSQJnESUtPiMSreoVs3ciLuPEMgJvcbgSMbHet6pniq2qPHtrtJuTlfrwgDdz8fo2xUntEc99XICiswvgdABvOvBbkL1yfDDBBgrQAscbJGaoB8mgiyXso8o+bGY1F509ujMAO0OkXn5ArVQ7rBJ3powWFlkf0CMbAxth4ihvUWC7N05U4b9c29qvqAIdfevM/Z4yfgYu6Ias43kfq4Xl+rGRKBc9SZV8DicxX2ZtQ+oU7xdVkLcJkp2esKf85Fjnipgy7xd5gGzyOWNtCGUL+KTUSNSAR2Y4lquJNPiJelYkxVQqibMqD/Xk77dJ5vYfoEDX5rQ3GC+RMKkRJGf5UO5u/BvoB+VEgXA5DuKAOfXwiyQoHFZftjQX/NagUi8l1RtmHn/cmGQpbgG/qRjmL2g==
-    environmentVariables: {
-      }
-    image: lsdtrip/cp-image-builder:1.0.0
-    name: cp-image-builder
-    replicas: 1
-    secrets: {
-      }
-    servicePorts: [
-      ]
-    tls: false
-    version: 1.0.0
-    volumes: {
-      }
   cpspringscaffold:
     configs: {
       }
-    dockerConfigJson: AgBDhwuhnIzEAui2spq6nyoRIFs2A2ntY5Xz3OzcIlDUhRgxvWaT3kQcMaob2EGme3v98aYhd1iF5WLYo0mtWYJpSamsDFibf1ZYpNG8YMuez3CIY9W0Zql2ImFOz4cy6aUX8kVPAO/9ITVYEIyQfeg9iqNWbSN/7TWn2xn/XFCuw8/kuLxNo4wkVBXWnu5ZHiGTgTyiI3M8a80nYX3GTQaiyceqgLdjek3dP4ufzp/RzPnWk923OX5qXFp19d8VthTkAeb5Pm/cTMvYQGeD1iInnGCvHnJRy+w/ySCMCX5ZXX0Cmw3RvqCsct9IZUEfgGiJLnzpkydl/IEgm/buERffJCFTnJrYae4JvXDjvhIXrxWZhsD7O27qi2GZFCwG9HGrhWZG0UOnvRnkTZdwolmOtxQkIF0LjkQv0wK6E3rjVDJbF+MDFg0DOmIpf8MJkJWZ4ydQTmc4rJIVBOJLNWZ+ZRMrkIX1uJTWzuDE49N6QzMTA8ghsUQJlcOosyoNkUCJBrGjf7fo2Qxx4EPg/DitiwPl5YUe5jS5QZA68SwdNmzAJmzeiNWP6bHgXsTqphj8i+/Wij6GVsEtuRKjbPwqfnKOmFEXqR+1SBDfRTXKjrFVk+JeM5XTBn9/8lKPQL3S8ZBCy+9iqNpIk2QekqRdiahZiYuUYOIAibvBCB6SPPz+ELmeVg14HxTybuvi08mfhORIL3CwWBkQOkBPhKveNNK4XMgccQjEHgYK2unpiaGx01l6p0V5edkOo8rSQg4GkOBhGNmjXiSIB5uDHO9sc0GXiAHB9LFUHPh1y9w2kSXC5iX1UHIzgoI/hc3ofih+mmP9IxdGHLnb252Sx1kEFz85Mg==
-    environmentVariables: {
-      }
+    dockerConfigJson: AgB4oUB743OwCG6jO6VDbnUkzAPiTbkn2wbO4huedZ2yqi1hkdNbYZ7HITcURkdIV6gC9vtJzvRRJsXmu11VMUALZlg9D5JbTCJOHLfAnO0kIXQh4aSoibTCyiIhrmC2M74FD3wIekK5jjVppkwsLO+hL92v7uTwgIzsDuYtuk7GLfiDkbeNYasQIcGNPzXzu68SPMEiPo0npGkkVidxlBShnXoQBpmeX38KYmMTuMLIAYxFQ0OaDk3eWP7BnAlGFgpHKUEtx42Z+9tXOfVV/CurD3B2a/+i3sgm00lLurrr8VLWUfA+dAHJ1UXADV+nXpqM8eQVW8C1MMhvpbZ+GQubuNFP7ho7TLVrjw6ObUTFQXu6dZMXGopKqTAJZ8Xh6UR6P82LBCN5q9lA1EDZLB1dZOTK2/bTLoXUezMu5wGBjmplCxuQJWlDD3F3f2hAtFnr8QJG5SnsMdvD5kOAExQ4C8Px8M+5LiHGdHIx58rWfBbqYC/86V55uEVs04/ZLfbtNpskWxPXxeGwna/SZcACXD6xyuhSQCYzmUUl/Y2re3UfE4k8//4C6PUNMeMt6lPYh9j2nA1d1HnskrxRZAITnZD17FrfvdMGv84gvNXdrXLf5WFnjKB5j+EDqmYGcU9zzkgnRMt26b+4JxXc1WaGNunl/JMoQOfOqgitv+2uVx8GY+o28oIG8RHAaxbNvSibe9Q6BzFK+f3L8/t4Q4fMtkGDIFIDelzlQOK2N7Zqn1Yhx9CVOX8cPURv6LwiowDLl4cjXN9FwC2d1QTwsTL99yBGcBfb6XHIOt4jsT9kLZ6a00wFndrT3BsXAa4qvYUrAs4SETXrGBhCITzPLjjEDb/2bg==
+    environmentVariables:
+      neil:
+        key: neil
+        type: Value
+        value: cool
     image: lsdtrip/cp-spring-scaffold:1.0.63
     name: cp-spring-scaffold
     replicas: 1
@@ -36,4 +22,4 @@ applications:
 environment: test
 host: ahoy.cluster-02.lsdopen.io
 releaseName: lsd-rewards
-releaseVersion: '1.3'
+releaseVersion: '1.4'
