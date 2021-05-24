@@ -2,7 +2,7 @@ applications:
   cpspringscaffold:
     configs: {
       }
-    dockerConfigJson: AgCBBZSygO8PLBU4I4z4yTbbE3gE9VuECyo2yA265GKEdzBzgaMz1QamG1Ulj+qrR5eAs3ncEFOEVmHLORKKwBbSVeTuBHvQX8eSx2YW5S7dsyOT6u70JSlhl1ThCs+y8rkhKuiYyfsDwJu7UI00RNgtkHBJ8ema8edri3tFJ4dRE+0HvXrYiVjEW46rFcwWMb4saJMCMFRlh5nodx73osMpnmOZvVIlygMNCFfRK2TGFeM3vut0jQDieuWqM4ayWi5gBRVPg21oUEjjggVpg2i/KhBLwNZVC96hft8FDALcGeXCAR3mQNojj8mz3pBl7ErujfyF2ufDCD3xvLztl2nrIwsFrNPd4N3K98pzlu0PL49DjPVxAwbqsm/91dUNxQ/jzPuNrDEA57yKd1TlgFpBwpOkgGizJ1wbrmYnGEgoATkhmnwVxPF57Qdqj/zUCofnD6iCojVxQ0gZ5j92NHJvvB7cWatbFSvi9HkqslFbJ0gXNJwQSmMiG1jW+6WTDe8ctfszoOqDj9A3hPW13EcRVZXqZrlC71rJg83F3o+72Y3lhX4eqGZLcr6IqORFIubnsE1j9KdSVAJTPyAXIe7HDj05izOuNOpiENp8eqXQI/761v7PkAVlJttiI4yHUFp1U9poBvuhlCKXlVZL+0FuzLmSNcUVWeZJWiKu6OpP6T2/aueKdh1TenbvsF5aXMW7uVwrwe6fXIrkk0jPJ4ODIqZYaltDYae85RfPGwpqhbaa6UhJh3h39ZR/ZQe8OX6dWMqa2QSNRy20bK8IccCxxKKb8V918sx0m4Bbb0DDuXPk31kz87I1n8pYAVeBismm/ClGrPKlSmSld9u3QKjjz/Qmqw==
+    dockerConfigJson: AgAGe7eOP59Ur1tVXoe0XANO47NQ02P7DoxmepMJWe4lqEJQd4kQkXTc7pNDoN3nIoFeKPEZN5MKNrM1H5BfpjRzVTEJnPgmO2zIv5Y82JwcLObZAWs9ZdZ8LC9pIeWfw0jbsPxwOQirvJZuaMnHNFvldFGh5wApSi+1EQZCaj3oTClfXHyO3QE1MZYXzkuSC72ug1L/jhFqAHL8w14QPbg1Y+1Cgkf+7dCaWTP0p2jFFVzjlHIDZoRZKSV6ncO6A8q9J9RSoB+cCwp2Sef9BpdGbAiDqMYvgullS0xjb9ywaLhxceuNdl6PrXu7htuYBv7QlIp9DTivLWsMXxwO05fl714B3JtFSZELE+h5pI9zQv9NdsvRYEXPcnTL+0uwuvp/oKSKRwefLNqVCp/LmYsXCFJ3yrnrZrw/kEv0JYb7OdzqwP4MPksVThPf3B0h2ISl8fYKcsptRW3IymLap0Hx+bujgZgXmZOJeHvhAypUH2ySU8KXbbpWYvHA0cd1pcprMbHwdFV8VbK9aJiaDhunK9oYZbXSkPjFXvQr84fgP7CESwqPEijOoNE/jMWjyqL7PI9z63k0ORFgZVx+p+Lrzs9TeCNXo7A6SmDkRvZmBgD5LvmZDzih5eY5HY4dWmn08lWGb4Xu/tdyL/7N80FAEGPtILQy7wX/5/GxemNMBSKhto7aFSx3senK1pF1z5yWidGuxWsVwUOYMptCM517iiTMgC41x6/qRtdlO9McH7pxR/XoPIUdt2CSqFXeFfr1rfoRy1PM1EIReK8hpIwbqP4XRDFp6r45U44ZLDGcD/6xKXTBQngh9pINH9VcUKCQ/d/b2L69ZrxmzNzzNZ1ObPHsug==
     environmentVariables: {
       }
     image: lsdtrip/cp-spring-scaffold:1.0.63
@@ -13,10 +13,10 @@ applications:
     servicePorts: [
       ]
     tls: false
-    version: 1.0.0
+    version: 1.0.2
     volumes: {
       }
 environment: sit
 host: ahoy.cluster-02.lsdopen.io
 releaseName: lsd-rewards
-releaseVersion: '1.0'
+releaseVersion: '1.4'
