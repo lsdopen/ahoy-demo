@@ -2,9 +2,12 @@ applications:
   cpspringscaffold:
     configs: {
       }
-    dockerConfigJson: AgCA1RaKMV6LpC5zOdTE5tahFkSt1pLpIOyCA6SDd8edkAsdhbGu/MW550ctvHE54sYIo/N234HRoUWH20RSPIE7uU/bNkEG9dPdMFgBiV3aOc47O9rcNDLxpp1vXmvN1sA5VZuedL1jmf0udy+3e30yWbHuu149KmKYQFKWOU3nL9OAdMwpcfr0REcD/nLp77nhOdPemSh9WhGsrsDhK+n+7bXNg1r+HeTT7T3z41Kxt/OhgGFH17yWoTN+6q8wBIwxufYd17ff0w1I7MV61KFB365QaShld3JGMmqvcw6Nv4ZbCy5brWM9teVzmKrCXYgb+eRO+ceW5Q+ocgArY3+FI5KIhxebIuCCp39Vg2mlQeIZJt6QeiUo0NZ6uAJpqL+HlV/9dxiSiLdGDVS7gpFqjs9ofbL4sW1BTmOZ8Pz4PQY1UYDR1KXToLQwAWR7y2FAsNypFm/Ivocv3tbDXgqW1B6icN/BhEq5o0hKQ+oNHTeqreglwHqXjrjK27ilREeQEWshmTY2bKMZZo+IML//0mhZZ91WyPAio/d3Wz3gScYcpUDQ/y5L1/PB1W+u7ePcxrmObXnDfoc48sgxzZaCBJgwwrLBf3qDKNJxHigIEXVFLsZIvbkMrb2ARgA4+DJkoomuO4lTbV+7ikWOTsfSJxTfS5HRQktXTE1RzsNY18f/G+OSGVneH3DSOULbCpg/YHHOleIhRGCiHswI8SKcp3udAZsV7gUDJMe2R2nQJQyk1sKHHJaruoS0YCvuCs7zz1xXFgpFt5fhTtOOZQdak69z+juz9IgPd81Nk8w9AoePMKQaje2Euy4XxwbDxuGBzacj5c4j1x4hQY4L7XMZRXTlEw==
-    environmentVariables: {
-      }
+    dockerConfigJson: AgCEG5COWmJ8tk0cHjpARU1E8YuDnPZoeI6Q9V2sm/qhJNLKhTWqsP7M0eZej8KUk9RoGY65piHdC55aKVmeUGD9XDISSsuefOt756RAUysCkIJ6lLcgLvK77Cq4m0vtowi7L/WIqE7JFhb8bKa+sGusjlZfCNIWZ5vOGsoT9xevG3KdWAaouA1idwBItQ1EEbLdUMskO8uihTiGGuPpr4GL0C3M2PtOFjgoLAAtI0i1/TYWuuzuR+YoxeG939n8NV2AIOOmvLgg8X+aejw/TKv3+VDTqVlWcOoGJWVi8/EfINMbElnrLQvh8mja4NIIrWafI+a8YSfQ04MDzWAyvQz7N2VqE6fyvZy1urXhC/4b52wtdHvgu1lneSFfmzFAEgKm4YK7Ep0CTbxuBdKP1N5bgVZuHT5vie7X/yN/uPuv/U+V9MRjPpf5NCiIeuGLlT//hcS3/A7J/DWpauo6IRlh8yD44+7kOoT9eHAkogEAkvlapIJiBMBpa31GZEgc69hPvhqmJwepbVLXHOhelGWnLHFhqBxCUlINynGOAtPZu2u8zQnNCpW2vkmUrDwH4Rci4DBQzi68+FB1fNzRBRXvdzOq25rk7eAkO1T/O7b9JF/J4yOVCuxjLgSlsRWOa1ujYt0xwb1L8x+lKRFoIuS2ZAoN77Vsei2WLsWNpW1JnyYfoDGWqPTR/pTo7sqEIs3gNNsDjxcyJb7XEwJ45/xdSOaRS1MFzT7PwIy8pggNulckG3HletIl5l0NYyJEUOhjHtHgEbKXuXanPUTIKkPb+ThIpcVyBK0mzcTeCs4MMW7M2ftgZBPIpzhRLjlai5hoHu1twAi+5EOWYb5iVQUFD69X4A==
+    environmentVariables:
+      env:
+        key: env
+        type: Value
+        value: prod
     image: lsdtrip/cp-spring-scaffold:1.0.63
     name: cp-spring-scaffold
     replicas: 1
