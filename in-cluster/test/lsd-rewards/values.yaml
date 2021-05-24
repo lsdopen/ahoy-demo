@@ -1,25 +1,8 @@
 applications:
-  springhelloworld:
-    configs: {
-      }
-    dockerConfigJson: AgB4834F+5LuUYpf1ZeMZ6fkUPrnuPlumzwovjSEJCIzO6H3HNDe0+DIaBwd/ir+oULeD637mdalbFyeMCYDyXLYwekz6Idn9hdMPPi1vuOcKqNOkWRjOc5S5VD+9bmPHFw3sLVVoeVKV1MDhG3/lVHIFCcALpEx2WkQZs1zelAIdwBzd5gs96xB/CWIOwBZDcLr+k6pDwQTjOlTB+BaPH1Jj7+FShfImsatDBa09OUxNXt8s+TpSWbEyZH5ikI4SolZMFKucY1X1M9eRuhri4o/X/V7BZguDU0O3PmhSVdYxvFH1elt5B3vEPdLoLguGNZU82jLh2+1LGGeyQe+Yt49bSD3QxrMoB+qXrBaBrCx4tnva5XcOwpjuhow6EPm+aDlTDRE4O2ZDNrL39G4MEOl8O9Dl+CZW0no90cVTkhqxS/eKnLtMqk+ITNq15Hy10ArZ5R2xyI0BZAkV/DpDH+/FqWIq5INmHFHW49khC1qErmyg+yrQHG5lzH+NzT/VQAb8pb2+d3xbhTxjp3rniFAcdViy9WoTWiq0imKpMI/ePS2+v7EvxNo1x9iImgBn5ZTeRDrwVcz6argDjid6BWyd7COupq2GkSp7DtTOclwhzJFYjabZ2SyTizYikYtK724beKrQl9HtCmW685zrWP40spmootKwwZg/JCVShpRFMrwwd42Cq3uyHjLJm6PjmKinT3Jr5kxHd7fwvacNu+G2Us3wg6lLG31s6rGz6CWnN4Bf9bRp1xdIzc2h7ZNaZLMdF7i5EV4qrDrft4T8p1QIsy9SXB3Vy1Rh97LtO5rMgxr43MCOb6YdQZvHQeo92iD89mLSJcsbFqr7lvdvIg1zSp1iA==
-    environmentVariables: {
-      }
-    image: clivebor/spring-helloworld:1.0.0
-    name: spring-helloworld
-    replicas: 1
-    secrets: {
-      }
-    servicePorts: [
-      ]
-    tls: false
-    version: 1.0.0
-    volumes: {
-      }
   cpspringscaffold:
     configs: {
       }
-    dockerConfigJson: AgAtHR7l+izlU3Osjc9qL9L5+sCKyR6TKZIrioDyD72Us2x/y69iaHP5qh1jgAswC8qC1RTKCz4xtVetos096iaSDW3VhULvbb7x1ReivRWhc19ibie4dY1XRp7mfbqDeAEtDfVRSqdCQJ3w201cDOFRiDjzmMtXElQyh2if0/2GeLqqehizHFErg9JLg1kX04Cdr/WeJtZuE0aZmDGK6huosPHwgHiwHlVCHZo0opwb7Rs2yETyo0c+eHb09uLlNyokH0dIxMnDJOAxKVSai4EFQRKHSUaDTNOaWoCdzDDv+uixZuJMoxANLzY6f2Zdj19hR3tNLHMt9qr/n8V+FChRbfYjLgwIYsQUiHvDemQLa3R3PB5FoV91mHgHqua/k6gRsDGmu60Gy06fqVVj3+Ooo09RRc/xJnTt7wjY1eK3Chhk7q0lLyk/8RXiDWOWJ7aH90MvTUmdKZx3rKh5HESEudTELf7lAF0y7oNpqjYjYf52LhfKkJBia6X/R/vztvEAvzrhxlwvbqQoAIhww29eRKTv9VAoaFIhFrmhxXQJyaLu59n/jHiD2l+CjOsXKkKSg3zeB+YunvbLm7jAMPpxOqgxJXXevDdRjEJOip520FQP6CFavBlC+YIDhf3GTdhJGZLsc4ABRphLpF7lkuITbYRePxKBvkW4Guhr6B8Z5pGRD//g9i2eut2pAE2LgUPVq2eTa1eklxyvtA+2uuw049xLa8fYkgMxvxZcGkHKM0hUg1wB2/Gu8lNngRh27u95V6VgDoeqYMXhXRWcaOa12A9XiKx8pv4hxKwHM1qxgbHyJEGjHd1FzOS2w91RmHFSm/AaVBRnLUYjYxdPKkARuvegew==
+    dockerConfigJson: AgCIvPeyIjpLpNelXjLzoYvwArz2N/f6sLlv8yV4s0UAvLAcGaJVrSQ+eze+JeTpsyk/PUSGZSF26rNZAz+c52JlGdumGmj95faAwN5rO5J9n7bL+FrsX2Z9ztH60t/g3Ai/4kYiD75Uau63+GN/AQ5ixUYBXyf3cBnF2LUD7n1x3F/HG6mMzDlpYsWsSGeVSPF1KJ10i3MRMEZOt15JjD1qffpGnPAyfJ1/iPr4eHGYlfI2FPjU85/efoF14KH9dQjYIo6THWsWZBx1kWsc4a56pT2sT8ZuEp0uQCsM3u8SeHfSs8t5JnoNOeEKL6xYjKwP8nQjEQKqJ0FRmFvFHo3JnSpuzYEKyi6i8toqHWi7sztQDxkKLZSBn0KjbOO62nHWUZznGr5D3N4bI6fSAAF6jIEYk0Xdk6NxUg5dHt98ghqT1ayWr6cO1apNnT861lrZcngn/gL+UofA/Wy5jIufHLGXqu3Fb63rHgxDk4DduM6yUUhH2FA1hiKsjVDM3AMiE3zNuNfZHQaJa/zip50CSuKQQZ2zzh06+hmeBMu80VL+Iyd48wN4/hUA3U6un8c30Qspu7UAH4cfGD6S9YllxsSs2fJgnqOmN4CUQTlLvA4R0mMoTCh9MeSD1hCnYTR2u+hmmigLCi1B5iQAfF+fo4BA50QrBsHQzSERNkZIYT3CzT5MePZOlFsCl8XNAdaRYV2avbgGLqYrOsCZAAZ/M9ZRs0AVQ9fvy3QMHxMG2tJhIIjBiwKfBh6qxg0Bv5C7POXTYg5ptXtPdRUtTGfHyywvmxdvPRk7PDLKjETa69yW9ZcPMeYJWMv8tRo74UJ0ZlgvaUpgTa+G0v7TpkIy2pRFpw==
     environmentVariables: {
       }
     image: lsdtrip/cp-spring-scaffold:1.0.63
@@ -36,4 +19,4 @@ applications:
 environment: test
 host: ahoy.cluster-02.lsdopen.io
 releaseName: lsd-rewards
-releaseVersion: '1.0'
+releaseVersion: '1.1'
