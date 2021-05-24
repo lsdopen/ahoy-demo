@@ -1,0 +1,56 @@
+applications:
+  ticketingsystem:
+    configs: {
+      }
+    dockerConfigJson: AgBzWDjzIuTjqP6Q+K1gb3jj6KHbYFssC0uJQ/axMompn6PN7/+uxuEpfsf+BREYwopwHzc4ORMavs2Xoy3Pg1wQU12Qoi+TCU4Ax4Dyfqtn7Rj6b+//BdDH7qOx93dYXZ0A6a8FvtfLyPx0Dd1pavcGTqa+vrQuNEaBnskJk27wYrPxuY9/d4OfZdzcVOHLEr4c0JLxlrauIPJT/FPmluPrD/2+uD2uOyfMCx5i/P1SLv3Ew/PsmQGIoJo36xQSC2/0HDIMSOR1ofaXAApcnEeQCycF1WSD0KY6GgGQr9hnxxT/jifmJP1xdsuXX85GqGrcWqzp3BRzmEKcYdTAbWuErerHkDCVuCkPjTNI9bG9ElytETD6fGwRndT5wAxARGV7vBDaLxy6947njx/P/Y3pfMXrou4pLAJI8Rb5h+KA76gfqf4uPFPBMYrYbaVfOypBeD3ELvOQAwoe5MEaH3HD0HeoK5zE8RdWFOTzE4owjlUmMg/V+qvEeI22trsESwqs06nurfgmLY5NimdAhATTeOGoz5sTmYefD/xcwbKkV8ySqco7Am6UZeDCwriC2jC/85wfBrreGaMC4ww+nVE/HEWaewPEX6i+4dYyu3+Lg9Ifj35aQmrPXruB453OPJB3rXRR38Fr++d2LatNO/RA/m5eV+HVZWuWtb58N4mkXW/sO1L/2feHQG6hWQPo6NRVF+jKO7jv39bFFR7euxN6p6lwUQOEGmao9xGd+I7ycXHnvMO8x0wd5uwbU5K3AtaTXVZYShTf0ASWvoi/+PgEUhAKazpvnT3IRepmZZvAUjcUIG/E2BpTARpaFuRHk0hsSlBDL2y8eQ+ahixHPKl3EweGsw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: ticketing-system
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.1
+    volumes: {
+      }
+  alerts:
+    configs: {
+      }
+    dockerConfigJson: AgCeCquFtrviRkBN8mrh1fH3OqxHFQ6vyQh8lnq5ZsUc8tPWVConJ4F+qXCgeif95pJ2aZS5WEPdcGxZKldsCHiwkZ7Fs+xhy4Q0thKxl13L3Vf0CIgFb2IWJpjfd7AlaC0CLdxp8ZG2ceoa2oZ1tvAjLuJwzIBj4lpUixpn68t7O2C/uYg9a8hFh8rzmifoxwZ3/FsPrkiaStsPWMWZMVT3KGZElnoXSEuJT0i1FdmJ0EVB6DTZsfBDjBDals6GysfEB+yqXUvLf24W7gCsqrC4LGloc6kffIs7OnRvFZSuilBWhdwGU22u79ATxwmtfLjW26dwfx+aZqcmyIWtMDoIP9JJ2lFC+/+TetGg5L4HIHgR3GfWwATiX2AqSX8AdT9kcr0gwUg0B2jU9HqDMVohCyxwdY6+rjSMJS/WnGsmNLC+3ionnl4bFqDj4e+8u9e2u41DSmC2DPFvsUvnfGnVWsczNBCwgW+/Q3RFl8f9qKM8/XhkIWAzjwvjcV1casw/pK5A77bYrv2BHXwdXKzEVrKIt7S5eljCOUqercJH9AxEyUGXhJutrHLTd+wNf/dQrw7SdGEepmCHN+2lhoYSwaSKDjbzl1UZefKK8txPsXBroIQPRh1tw3pgE74mRz0NG4oeB1eJYf+O9y4p2VT1QBmurDAiUkh9F68tWPDjzA0bSSsnXGlkevKI37RqRRd1DNojf4L4glvTFovjh0o1XUmIfl2zrdcRqecX2QwaydFc0qH4DRKpa6w84CaGCBsh3uCKqH6IoF6JLwJVgTQGwTzWH5UTzPj15VnsfLcLz5Ov2vZaxIVAsis0hL206SZXtuaP/4wjZ/SC7RO9BEwgG6RZpA==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: alerts
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+  customersurvey:
+    configs: {
+      }
+    dockerConfigJson: AgBhE6I5OLC1rN0UkyekBqct8KVYkJBgFRP0Wy7xMOrRwmVXwIapc3JLZk+C/CbstKjfPZEkJ5YagIhQuS5DUhZNzOBWyPIOIcqw+I62JV/mY13m29V6KorzSVDBprUNWk8yLRdZKfxNNq95c7ZWE11qLR7HB9V31AFSRHAw9E/LmBhbbxz2YGVgrac9q6QsDHIjlTXgmTk+0GabYQIRIUUR4slcDrN1mSxVAkYN6kjCbbbpMZ4okGBI5caDm8R7VW9sEk0nuplohVpWjpDvkqMgcj/nVxNNilaAg0Ssbz7Y883u0lrBubEzj5GlCEc37A689YkaBAzCt098ARZ6VMoAMu/KNLbIx/BTvxKzPORkzmYWSs1pKAt2K0U/jf1fhVDaXNF+3CUBjyjVEJSXJrJD+XfEdpqqO9a7iUjK2aT5Zy/DebxV462WBvFfx55puRWLKa3ZR3wyuD0FOTAy9cWILCJqWr87LIwHTuAKD7EKe1Chi2rxSCawHDLTJHYwWpQhnN3hglBQ/9vuNW4iR4UC/VQgd4NyqO+920HxURXcmJKCDk2dHh1ufNYuORcUYQDuums7VAPn1hMZzTh84fj6SxMcv0IDKttUaQK+3l7ebU9DSgUF5a2nywlA2OchiLn5rYQLzKdHby4rJNS2cwzbJHebl6jdbqoenBbXHJDeGWZQ5vx6VdEMw/lc9HAO/prd74P7n1eZWYygyN8ZXTp67ZhOZAydnGP3PxP1xuIi19IjLW33IpUCTL63zgzv8vZhdFIwAcB1qsB57JuINP174/NKqv53TXVHVqeS+jT/jtHtjTkPcu5Yk7yGQUPFWmrDFwmAkjM7ogqVpbtFmsWH9oONgA==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: customer-survey
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: uat
+host: ahoy.cluster-02.lsdopen.io
+releaseName: lsd-support
+releaseVersion: '1.0'
