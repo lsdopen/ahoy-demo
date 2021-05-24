@@ -1,0 +1,73 @@
+applications:
+  calculator:
+    configs: {
+      }
+    dockerConfigJson: AgA1brIIXVM6UWePr9niOd0eG68Yx6qNNlMJJ6HR5iI/e5kXuDN2cI3rT+QNDJTuDHh0S4DqxTga62YqecqafaMzvPbhTVsZEKObet930e2JRLuh+bhvCkn7QBDVfBmlvExbxcHmpxKFKT+uyXVsR8hapJ7qlZ37zNfFss7G1ggJaPq6WiLAJhvcHjIRgEZxppT8oQ7p73sGzy/IdJpEQJcjwtB+JMR7CGlSWVD0WlBfF6fXfwYlAgAU8O6FBfP7rzxFyqfPwcTjif25ZCD5QE2IW4n2TZPh4Mi+IByrZ5ukbZkqt/icQmgnFi//f6v3oxHaAI466yQVBdhgsOtjWp7o1QQt1GEo0+uLZzbn5D2P8+MG3/eifibP8/Ev1tsX7zx3VUGck9jGEeW2Awg4XoDZtkpfeBpClcmf4O+VWvu7N88i506T7FTkSbDvO9Ujev0o3S8gFrLa30Lps8GdTbIMCBu13zD2iXnG20myjrbJb9M/r3cCn2T9HmcwnRXT493ys5lPkCxLne6PK/25e9b5etrD63Oe143fYOae1Id3hiDAQ3cBn8+6N+J+15G6LA0oToS7iJVKp/jUyCw4LoQhlzaJon/SkCJD+B62T/XGZDoX0GhnI7NLTIBI1WaYyvLQVky6d+ATnCg6dBD2GbfcbpDFAiXfJdRDMw+41MJJpfGNH2vK8o9OTtag/Vrqkl1EQ6oE/bNLKKFlRkIgOANULCMU3aFg/gLqRKWk1uP2SD5J20NB8dOYHK/lKSL2KsKeTKyfmqEy7ai2I4uEmqkIR7kxIqDS9s8HRe+fd5Wz58V4zX12V7q9nehop8SBMTojLW5JwMSxYJtdWyUlAIVzEKN6Uw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: calculator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: '1.0'
+    volumes: {
+      }
+  incentives:
+    configs: {
+      }
+    dockerConfigJson: AgBiCmZHkB4lnmoaqIuMiBIfviedTA0oKeTak3Zk4C/opoy4qB+LKMT5jZ0MZNqY7EJTsOeRhtiqWviuxLNfPLQ+qAaeUAY8ZHP03XQA0C57IJ1wl4i83WUOxMtFzFoX3JtrFkc/s/Bvgr4q50Xc3lAWeYmL/6kF0z3WE6aDg0ckSF8P/AwQHwEThZ2/boHp+MxKOu/FIm8cjU2azGcuvrUxFl39s6vJf6e4nFCaJOUMurXPS+KMN05JIG2HMGUIWe3cnzfBo5D7joDA/dUi2kXXBgCdMWUteulrG2szThjvDHE1foSV4/z5EmYIoZv/YbjhcwjFm7OkOWtpjijLONYUwjY42S4B/JTy2AXqj+jiOH4xW5ac1MhHkRF6t2jQoqwxu0t7ZUfRdOxTcdjkP+zQbTKyk1NTh/dayN16JTx3LTzGRq6l5pPAnO1ZrASCEGTJepPyEmlGgwVfJfLWPYh1w69R1nj1QEItrv6yGt4HLvI5OyXJ1SpZ5VwkoZ7Xjkw4FmH6Ym2Tc/diohPLVup7TnZxtgXtpASEkdxxKx7uXl9ZAnkWg2rSEES2PhQffcjm1xLwNzAUAD8Xm21MIdXfB77ewk8z+UU3jgCmY6xAd2fXuC2lbGTCFMr8D5nji46SB5UfLmBgVjlUZHhsiKEHrd+rMGoJwc4ooVyJ3cQ4zePq99G8WOEzvOKeH67Ujg70lQGwVjlT3q8SbIamOTWX5Flq19sLomN+d5WhXzIFc/8vpRWbKd+Sfl1/ZgF+RIzYHlWGp7z7c0DvXdxQK2LzDUyNlEAShKy3HJC4FLloKbB0fudpk/6INgp8PfTHMr7V3xQGdRnQM327ec5vhmPEMRy4qw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: incentives
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+  exporter:
+    configs: {
+      }
+    dockerConfigJson: AgB8g90nTofqMK2296QuavYMSk+87Tmh+YTBPEbKlXXfX/WzjbUmaKyC3tiJXZMcKQ2qyDcDxF6786JjZMdIBzWHuUXHeWhJXURLPdfCjCElulp+vRMt1FB6W4Ew9D73R3ZDp0HkX6JqdmEp9vGuvRNDZREiSXZxrayVXd+dhDsnuPs2zZASXVuhCgz0C1jAbvx+HDc0x2w8VFzq5W0ip8jz30Ui9Sb2ymPVErU60o1+LFQPAmqT4nj1ow5+9U3ao44+gvioRRQ1nWUftPF27XUTLaLFq5nANDzi9R267YLVekQC3EYfv9OZYdoO2/hgK/at57hfHWsswuaoxDFKS7T9HdFws2PdmWr0Mh9JZ5dp6gMimyakgZcZi19LI3C+fPVPDOa7hia8Cr2Tr7mCdvfeVirH+Bkff1Gv8QHpFZRmliv24rtxWuxdn5GpbYknL04s72nQ6cMBxwxWlmdUL4cVvBamGSAWvJmDz3aG0G/UOKt7fsBZyByz+/fGiXd/24kMeWQL3Ke+UH0VxI75znlJ2+QWL0U8Bi8UUmefCu/HkIiOJsvIo+Cr4PTECvkza322Ais1eqibLBC0QqAJR+qDu1WYKEmX6TmBsvX3JQpn2psLu7qaV/b7j8r3BIEhMUPnd4750Prgv+im0Zf68Cpq5H7wlmwkGKbvDiCrXMiD+8nOvZxEpjZrV6yhHut3BYEUM/jGnAQLsieKjxxLxO3q+lydjLMeQ8Zf+SOxlh1Ecoro1L+IN7NmcnYFFvlIkUJxblDAVv6X+0+OiB7gH6jHsYZt+K08nMDCo6O+8+dT6Cl+RO4EK6wf0sfyJV2yIWv5C8yblVQkekApN/ykkYQt3aZZxw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: exporter
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+  pdfgenerator:
+    configs: {
+      }
+    dockerConfigJson: AgBYn4CNGdExHdtuhPn1Cc4xJ4pBdgQnTqeuWNzfFvgznqeSmZBVbZnSLXVsQlwDDoEfZTaYIXhtzBZiVOpkjzlYGMiLiE8MewQUnhvt2qZ4saXWDXA8ctOaO+AA1bMbsy1dAvYyC90JWhBY5hzVaZPJWyuEV0iBOl+lGFoRN0CMlfYyseUQGJUUhi9QdOd1W2KkHoltnEm5JWUEzVbaZu2XpDYFpYYX8t1Z5AnR78i5+tyWdFE3mSsrvFDLRO5LZYd2CVUFfQLdD65aQg8K6vyqK7vSDKZI0j3you9PzYAPWZvyn0epWliKtpPe5cvhUak+SvORT+dAuk3hV/FCOMWxjutZs0BSoli8XihbpqmZRtPJ1q79gqtdDvwxTHshDX+AvuTL3w/sqq19LuIfhaZwM2xXkfXgHAkknplxVTUmk6PAZ4eeNXr2HpVFbUD5EoHZVHEQz1UlHhwwen/oPXMcANlOtSRdOpMopi0e7lLp0AWc0C6mdUoVDV3nzChWDaENRPQYFt3fHy4fzcrMYPgrLmemQdolE+Os8lxfCppehKgJkkKN0id0G9A9JhibPgh03ALHB9giGkujzI6hubqyDt7o2slU9LDVHSs7WQk5aSO9KKl/3zHv5ITLtQP+sdYA7qgI9cJ8QD69obQ5ymhVHBb03wdG4bXa11yOZRRRAA134kP4nSQnz+bIZqmxOxbb+sUI1RXXQEFabZPFjjoJWP/dG95V2AfCk+d/PfciGSVZlw2/pOfBF13r7srcpSTvC6/bOngpGOO4ShL6Iwd8UnkDysDJbHZJJMFEZ1bG++XEgo/CLXciJwwPTs1oAzTt2SwQFnUZ0hDTA2jigvc/TFUYhg==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: pdf-generator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: sit
+host: ahoy.cluster-02.lsdopen.io
+releaseName: bonus-structure
+releaseVersion: '1.1'
