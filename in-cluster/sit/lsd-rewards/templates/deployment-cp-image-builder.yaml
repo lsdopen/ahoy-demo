@@ -1,2 +1,0 @@
-{{- $vals := dict "glob" .Values "app" .Values.applications.cpimagebuilder -}}
-{{- include "deployment.app" $vals }}
