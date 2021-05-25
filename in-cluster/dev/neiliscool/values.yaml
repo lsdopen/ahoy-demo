@@ -1,0 +1,39 @@
+applications:
+  calculator:
+    configs: {
+      }
+    dockerConfigJson: AgB9DgjaRzGe1UbGRgDYUmJ25wOq9CTSi4VLFlJHThJ485O589+E8xOLtW7ervogr4ZtybkRfhhLA8cAkjJvQJ6JyxVJm0eZQy4+4Aj5LwhDbGDDgiI9K12QngqKTi5rt76Cguz4Ox8Cxud7HtHss2WaGs46nonOAe27TDnV+F01JsemKKHcms+4E8A4IWJhHGT4BXJTSHmX8b73LIIPN0Sopa7IYu6cYDt/9IKuvQuBjgtTlKH8kcDz3Dmu1IlzM9UXwtPEFx3PZuaZ4/hVA2dYuR4LfmqMQ0v65A0zh7e4Z0TYRDLsYb1qTDvcTjgkPNy0foLUYikSMF/HwI1aTpCDdTtuh0HB9b4F5W5hZEYOzAF8CSjFybf041dvap5hpYgIDVXeXQbJn+LqkWCAPg0JFs7QJMM36XkygWjJFcmT2DlOLkqs4h8m6tFHohtdu731FZlWFOS9rS4su5vnhh1PGcHxgc5+wfVsY10Zr30Pv1zSSEPufFwflKR0KCWb+NfxSw3EC0OUj9srhP9GK8+cBK+i1fwDlp3SaCP2zrDRHTvKO289rCPxCfopGtsct/mBrsJp/Mo/1PXdQBrNshxiPLcECGYFKmcJQEbrRt7jzP3u7RDdZPN6iLbeFMCK+35eMl6/w+LS7MpTnIZ/DkMqv4eVdFxPPQ9QELLNawQUm4AUpXaiciVmKtyvKEB9h1SqAzXB6cubzfGZlqknoB2PIf4Dp6LgItBqAkuglBdWlur1a5P4bPY/zl5/caACCDidpaVZN8OA/BevaDnYSjY3k39UE6v0B2MQBZorp9fV46CHc7gwyuzvKmxl89mPIhO7EmGEy0iG8ytDOmzMKDgw3+tvdw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: calculator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: '1.0'
+    volumes: {
+      }
+  alerts:
+    configs: {
+      }
+    dockerConfigJson: AgA4bajsGvJadZYPzi/ny0jxmTFWkZctPkPBV3ACp1UcVtoK6cHhVFPj64GB6MpuyzskUVTF0D9qiqHO5r9le/MWUMtI4ZQSRlTcvdNfdETlXRiUZv/JYIHFRKe7tmobJqIAjqkVlyExjhqwHvIHUmXDTKrvCApmbOszUUZ+nCHXB5C5/RHYttvklq2WiEfGebLURSPknOfOdTLzM1f2IebD1dSrpjMfnybLZOwjI1KWxpO49+0waEHN9FCo796yEBPhkZwllz2yom9Vwfzr5G7ghbQXjBJUuD16LijegvPdS5K/FYj8nRy2q8YQMlUAE0HST1v668Hy+PqT44uaYAAqqyd8hcPqDU+jgApPecVaCc9QJaxFRmHMdg6+v7vtXXOuuG/UpB/zQuyV4yM66OnwTaph8i6IqnSPjcs9VqoQEvC/osCECK+vDXNduFknouWN7I6e9Bzndv+ZkdSKG/Ndtyrhihc7FEsCkavbf715zNUG0lq4UkrxYqdJ4bb+AHtzls+mn0GQDy/PON1H8PQfG9N4tCchASqa6hZl6PrPjjS9pPl7t1d5UJuHbgOQ9q2eAZHWFpSwS9gX5PRd1WJq5h6ikFQYomg7vymbgzRvOMucuEOxfhVM/Es9kHJYGEIMawofdkFEkFg/SXDc60uuVHPILODCtISErWrT316wd2dFkdXnW0vANwCDt+ydiRYuM1TmmpAFkdGc+qByfs3XuOUeJkQaSqfE7wm1lxeAOts5CRqZRGilph3F4lmaZ7jwxMNxRFV5+lA0Bt4LlUCdASVjngwqQsn+/jxv3IfvN18s9zo0d3ZosHpyiM408xNlwkv+ZP8SYQF2tUFNaxfKlq1oSA==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: alerts
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 2.0.0
+    volumes: {
+      }
+environment: dev
+host: ahoy.cluster-02.lsdopen.io
+releaseName: neiliscool
+releaseVersion: '1.0'
