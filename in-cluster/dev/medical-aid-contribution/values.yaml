@@ -1,0 +1,39 @@
+applications:
+  calculator:
+    configs: {
+      }
+    dockerConfigJson: AgAu7icbztG1iI2Pnl25xQhGGoxNAnWsNJ/jBju25qcs6Rl9/wfuNHqcVZevu1sxaOhzcBclQWacxEfbnVLQDAjuUvfBlubv9JuSZc+52BxtHVMZyNx/mhfCu/Bt7mZ1h9SxdWhummxbzCOrq76tgRzjqafY1UirhkrbAIA/LkAHU279hWagCzqYNLr+ehpiVnRHGFefzXs6XGXHwqsrGhFDEwzaHvcxROsJH0D135TGZm/BfcigGwVWYfx7a8jD9/lOIdSKh+FAOiQ7Xi5QBejppVPO9XdZFPoctkYNTN8csAlEDESRjYZWNKm6w2rYZbCRSBtjVrE2xlUTAEyknsljZHavU6FdqS+7j/haAHsJppqqzt4rRakiX7ynTRdMIS7kER7coxKCxSQSEpGHaVjYUfAdwZi2vmjgGFGyurCcP6mOVeOaFIgLakOHzfv5pd5vdQC79xBiPksB488ryhaPHnUD9GcZwizUW3tzgUips3TBNuLK/LN3Hv4Qx/w3D+cfqA23W2i4/MIssoDNWoNFRrGK4fckycgj3pc6d0/te86A92jsGxJovRl2ScsLB1W++LyrtSYHY7TBZMR+2/7LZgRCl/WbXtnHnt2gQa2VtH1MkSoLGSDHjhw6QuYbcBJ25bRZEPqR8ZPnyZw7sBeUcNoc6CBJl63Ju4ZXgiEShe2I3IgNs8xGeqd6mqi1LSzBE8GAMP9yMiLwk7U1lOysJYUSCAuX/EKSm64JqzESgVx66OC+D/kx82SUQo4RMOyuZshCgiE4d7GET71w+5SfMujoMo+ciu0nxEGbdbtzL87lowRpgwQgOmEx5YNziadaXeUapK58HjjRvq8yxLyMFRMjYw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: calculator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: '1.0'
+    volumes: {
+      }
+  pdfgenerator:
+    configs: {
+      }
+    dockerConfigJson: AgCwOUaPi4n2wovVq8RJNNUzHE00mqfC+MO9jH31/B3L8mqn9VUcKE0yQEXGKlVI4nRJy/pZHp/5tvdkuvAxKRE/jfh3c+V41c1zJy2s8qX5W2ep2UeEJeEyvV6RoMN5WuHB/v7RaPH1ZplTbVcNgejNslkcVeTgOxUnT6nyWKPOPR6EvmDWD4v1v+w1U+Aby/RNQSUmkxUiO9kr4MEtDGmpTfvZKiakECMFSoPEHPNWYrCcFMgfAPn7LC5rXWL8oDRzDRjiWQHkgxWOEW/PjwtAZzKu0HSeI5zJP18zst4/+znwUrVuLYg0BTxrF2srtZWGdhFhDQ+mEi1nZw1LIfliLhaOD90Q4C47evCzqX+FD4zzqSF/TyXx0wSYAOOuR0fn5Bx7oEl5EMjaW3jEAcoGrV+5IRJMA04C/nfjEYDEmkfWGimxHrJfK2ZdfJwU/prwhJbttVuW287SpiuGXjca0iILq6bkVd2WQZ6+5m7QfA22jKjZvTgZjPIICX++51P0nxz2pXx6N2+uVnTAI7JPJYYAhyeZwBdpeFlEFpFC8r1M1Y88mgGD76LeojEmmfBZq8mtZsw2Qm2MGCYJpP6B59aCJnEAghlgVjNfwXstKVgGVvfowiBB6uRnxXt4sYfI3Skda85PbhN8sawurc7ffLQ6npg/yqS2wA0iUnvng38nUoCw+N8Pd0t4juij9XLMcxoSXQVkZiUKdbIA2XKJ1IfaDNuW2kLXTjj8p2cF8rWraWb/oJ8qJdPLgKEcV7KvN00YkoiXW2w9homfDvIepDyybenAHXHyBfwZgZ7bwAIbySeYn2j65gAEgFt/PxIZtkLw/O7W+X+opxTIkuE+1LWWaw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: pdf-generator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: dev
+host: ahoy.cluster-02.lsdopen.io
+releaseName: medical-aid-contribution
+releaseVersion: '1.0'
