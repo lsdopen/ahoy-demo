@@ -1,0 +1,22 @@
+applications:
+  pdfgenerator:
+    configs: {
+      }
+    dockerConfigJson: AgBnGyOFmKNet4W5wvK0HlM8E9CTohWt+hCnFAw3eaZv4gQCRyOmssh53SkbNictANWz18rc8Kst8GltvJ6jCOXCP/B9G7l1DXLVzamGqUOEiMzprCkoRlpQ/CrDpQd67Iu4WOJf8laAD4Pval93KtZq/Nl3COpiUC2iT+fg7+LvBtgHjsvjgDroJguLyD4A2oRNgEJmV6fcasFSyOVqfC6Rfc2Tffwdmgg8XWVpk2pTwkK8gKDZfzUx6BZ7o6TtlvbX1TjxQt1uznMlCsM6pvp4Acepxl+LWsL0vjNWnwYYkVaIU0NLOoDmO8UJC/Lv9TXd3nqUOJPY5xP97ttu3IpPxg6iU7uyBVIaixUeGzPEg+X0diyWayV5NZWbGxX2zAbPJKYuj1OWXAEz6yiVoMUq3EBvIFtUHz3WqTLe8pxkiwhGshFnAhFc7WVI/NAKUPXV/Rok8B2auHMXm0MTIdTVYXSd54FdID8qYd2uwM0Byo7MfyQMr/tMZGFA7RtZJVq8BtuNTtc/lOVp8d2qJzr+yDDG2LnMXDyhfF8lTjlXd0QJiMZ9TMYKJzzcmP6VS04Iu1FIaBmcdamIWuY5DU/IUNRbg8yex4wFInWg9PqCQZ0d0Q6mdSmLMKWcA9jTlRz9dTxGC3ZlXqMlQ0K4qT/N7hH84ALFoZmYWUl4eyFmVNryJlrqAw/e644/LYf08EOSD8lmqn7J+DuTm6WgHrO/kDQj+b5OYjdbNpbeOIQnfEld37QitK4lxhP7jUNeTsunGhEpbCHBeQnsDDMjelcxdBiSM155BsoEVvSO/K5wXSB9A7L3NZMctCKSoEVaplaw6XCDK3LyKKKsNB2bebEpVDNQOQ==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: pdf-generator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: tst
+host: ahoy.cluster-02.lsdopen.io
+releaseName: wuphf
+releaseVersion: '1.0'
