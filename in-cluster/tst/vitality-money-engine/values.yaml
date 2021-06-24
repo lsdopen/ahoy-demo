@@ -1,0 +1,56 @@
+applications:
+  incentives:
+    configs: {
+      }
+    dockerConfigJson: AgApBYyFZ1q6iA5PkI03L4CMXqrCsIAN7kwDDxWsyLto+EQMcuTx4QzLEMTlCMdAhj15taaJuerOEMni5pgb1J3cuEuAVSXsrhAi48nD4t2QulY4pt3Krc9zSc7Gu1lampfCnytvOsS2fLeSbchqUSaa2gtVP8v3cpUumiP183RXXW5C+hAd+kXFXEDsyJ1QbdELSih6rOAndURorm4y1lmTM50pd2ydf1eboWixaQtVCpkwvj7CBp02UdKN06bjZ7I29aCAT3wMOaZqy2+HODEoEWnfVFqoRVQUWLIakDCE4pqMe5lGa6denJtEjv2zCEn1xut2rA9h42b1Pp0JgKDP5clEHgtzKAiiae5Ez79xobZaa0r97HQXBJhKBY61iw4+lQqPeM3EYk9KJ3kC1aVgZIzv73Jbct9qIyb+i0NY3qHqVimPUdjZ7/v3JtQ1Nvln0E04Zd4qgReT690yxUZ23P5QHhSpVmtTVAYPPHtmCJ3s9KcAhaPfL73bAqyqaTmg8Qny357U/R8aBejyjzM+3g5EiRRol8/Rq4XMLEuNUn9mrf9R2jiJ7kX0K9uSDxuwWyVYx294V15YvKCSgzwXhJ++3tyCqYAJUhqCUWaeMw3CmvVabMo6AGPl9N9LByqU7EwyFC/+6XL8asPnDTw0KeE36sjZF6fRihL3P8Jj0SJLQJhzL9S/SH4AZBGlKJixDx37AcWgiulFHgRkxgCgriCey71Af5jr/NtgvWTas/XqOUvNNijpOVleDuMLoyQWgfY317RdkPda9/LfcHHDRVBF8r5BoyVjEW9lSyJWjqdBD9T/6218ZmhpRV1rQTLMzIxklwATAtspGcnAaNMAEudpIg==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: incentives
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+  calculator:
+    configs: {
+      }
+    dockerConfigJson: AgBrjtj9QdQe0bbZcC9nQsnFrPcyX3MdIDcVJTIFsj11cvovNIZE8tCPACgou4rf92caQ2x7iTACGpRd8Dh4rg6YKhkz6z6y8qdk0/v4t3pQ/BSW0hFoMuF5US+dhDTiczdNDGgkGrJv9lfSfDV2iL2dYpf/3UUrofu1i1LCHtzyYlsbF4WAacINFcDtj0K61Rle+X1vAplLrxjZYS2nVUVFni8dFHrWn/NltluyK2E3QKzYBQxw01C/ce/PXxyyrj//pqPbxL5GMQZwSykGW+U+rGeRJQZLRZ9ldGmBrPYhfUmA0y2O9WTg7sS00N4LtJRwfQePvbzhQmCEaXnWYUDDZ/lRczcsBND8WO8SHtydMAFbdMWgAgykAvGTK9YlH/LvWBS1GIJrRKO8fA1fdTs0e1HoG6z2emajtGUkdtdUyDjbVaMSkEK82eu0UoTQveOSKIvdDLuZ3964/4YplZgTPrJdnuG3q8LYHAPIqcWg7qBMMWR7Dn9basPse53F9I9WBX9m4POwXw2bisgdidegyQUU36pTFOI0HaSO6IxJiFttYKZAUFk0P1cZO9do1+UeXHZd4tsbjmn/bHwCZSy7p8t9wJ1gYCEpPbQbBmXy7zYtv6czlswGjsiNZJ7gzVN4ErFLlo6wFX4Anwe8KvoELtFN5Vr1X4Km/fvorCLgdge6wOna6GyEXbQX/2ikS+cZplhN6/pNc/MzpY+mxw5+sBvMJnAYcwjfsbsIAnvARnfLovmEL/M2uDZHNsK9f2a6C/lb95wi7tkIImS3EklEnx8J2hmioMXUblN546M+JUjv90QQmT8pwpRlWwz/bz+ZNMBDOe61xpFz4s39k31Cj3KGqg==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: calculator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.5
+    volumes: {
+      }
+  pdfgenerator:
+    configs: {
+      }
+    dockerConfigJson: AgBHVAcVc9huz1hQzHM9Y+81rRcsJnfxqDgNeHfXyUQm+dujeOrivkMNj3tb3iH7LTnBEcdgm8/xbkckyD/e3CwaJjFJ2QgUZHy7FSr1y4xxK7bfxnHMVegVWYkmCbcbWwIXqb3y42jvr9bKkPpu+o+XU9u16Jr8Mt6oFO+gH7NKrcuY1w+dstObWJvwW6nXrW4d5W0kRvsUZGQwwD1IlAY2aYKPwwZ4iLontc4WXtz929ZPv+jlNowS5f5nAk1rVdxtknsmHHqH1ZKbageeRl1CR1pLLaFe0x99ZAQXyvqq7SDtLjSobHqJPjstzp3lAvkO5C2wB0jgqDE/vJPaIpUoggeHuEFTOS0yahOfz54TXkQHE3wh6OX3iMk9z9gWkwDmA9MfDqhKK7PPPQbzspL+4mx5/ho9gNV0ciSNeLifhGI3LySDGr02ZmbTBAh4JowJG/GcDZUDpa3W3KHIaTH8IhutcwugMG/O7T/7SJXLlrD3Q+0rCBVwpMUbWJOok+83iYR2xyq4anqmuRfYcU5o3carLTcaGgSc8MIn1kIxpTYWAZrfX9gVnRLDrshg1SDht9rFwymxmxdwO5BzzRpO1sDB1l9aNon4jRfV+QFO8iEFuX/9A7wk0mRdHBLU7l1hgOIrchBAsO2CvLKQjsl0gG+X97Rsy7A8Kyrm4MO6SnRdS0Odnwh6ZfpBAB/KwYZ2bSHnIikOtrXfV2g4T9eElx4hOA6WJG/n0bbCXN0Dpbt7dXF8AyXNkC5Aao1h8T12oZaIsRhXZxbjSOb0nQyGiRrryN+V5/QYsrNLVFcZT06rLJEpHwzmYVE/SPAQPB/d8yW/X1JnPjGdUumboFuZhatQog==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: pdf-generator
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.5
+    volumes: {
+      }
+environment: tst
+host: ahoy.cluster-02.lsdopen.io
+releaseName: vitality-money-engine
+releaseVersion: '1.0'
