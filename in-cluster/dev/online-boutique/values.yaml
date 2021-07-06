@@ -4,7 +4,7 @@ applications:
       }
     environmentVariables: {
       }
-    image: google-samples/microservices-demo/emailservice:v0.2.3
+    image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
     name: microservices-demo-emailservice
     replicas: 1
     secrets: {
