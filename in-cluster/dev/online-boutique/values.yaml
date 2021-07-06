@@ -15,6 +15,22 @@ applications:
     version: v0.2.3
     volumes: {
       }
+  microservicesdemocheckoutservice:
+    configs: {
+      }
+    environmentVariables: {
+      }
+    image: v0.2.3
+    name: microservices-demo-checkoutservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: v0.2.3
+    volumes: {
+      }
 environment: dev
 host: ahoy.cluster-02.lsdopen.io
 releaseName: online-boutique
