@@ -1,20 +1,4 @@
 applications:
-  microservicesdemoemailservice:
-    configs: {
-      }
-    environmentVariables: {
-      }
-    image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
-    name: microservices-demo-emailservice
-    replicas: 1
-    secrets: {
-      }
-    servicePorts: [
-      ]
-    tls: false
-    version: v0.2.3
-    volumes: {
-      }
   microservicesdemorecommendationservice:
     configs: {
       }
@@ -162,7 +146,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgBH2s6bBnQBLRIBD9Iw1eUxMPFJWsebcyY4VXwGlZWSwhuoe7knu/AFm80FLX6VwZD20KuUZhVm4wr26qje07Z2uBieuHLGgDZEvu4bJ/VJcWJwt4TFb/Uv3RIe3duAtFPLQ9tUZPZ7Emq6CW0FSbidKzX5T72pSu+r1Dfotk1z0vUAmRBvzh9vH3DZrQlW6not1tAguYkY2cRpCsgQNbDda5wsFBQgRWIcvAP29KUkmeqDVFVWmA1ypGDy2T5fOoUh1emDIUuY/NbEmj9Vrjntjiw4K+faLOMhldvkjoXuI37idr+2YOy+skp5JzzmCD0iJwCuVen0Qfetf7y/csU7YhQHmvMq9AnvZs+tLPjW9Yg4zltfg+ZUTK0Pjgtmp6peIOIU1u70McW/6ZwSf9TY96wqCvNEZ9CnWmBVIKvP59x5c5f+9JGa5lmB3Sf51JSLPOHKlgnDFUp1heWXg/fSjNkOp5OBBWCa8AhRzQ55w9WZ59zYc6Bms7rzXl/lgXAyRsAk01YTj7DEn7oKw4AgVs6GrglIAU21vku+PdOfABNCsEv0PAOEx9JL9ywUajxwnacoiRqBKh/2ug4xn8VHytYmUyOWhwgBNB+AnHovl6ylk9PPImsba8kKm1lEkLDiTbAeNW0p3QrCLcJrlqaMFhzkpBWWQTW+ba20wf7d2xgGjlgI8GuKMNodCl99mA3o1ePqOW1M9kjQ5zlS/t1dat2eH49HTLT5rPLatkq7M1nmV5nwy7neLn1Uq0M5xXCD9yK0eeEolWcFu8IMBrnKbWiEHaoaR8o10Weg+HA+1ddo3us8ICmKNHTdbVvaX4Ax5VEQqe8vdmMk3vrS7/2i3Q2hsg==
+    dockerConfigJson: AgBm7eLC9W5pAbekMFpiOaF0wlVn+JjV0/Ix55Yq8FxJqv4kcZ/9Re3V6DgWC7ZkEtWaM+h0eHip2GEqj/grZr3RtLq402T5LsNX9vhxZIv1symT4rGySKLhrTU4Fy5rRrPwlfGwwq97s0scNCbLtU5sw+ct2QuBqBjg5Aow4sGN05FWRZ91Vtrfpz6SC4NozRDBKczcqpjZUrtX54Mit1YLaM/8lsI5rKNvlFBySwleE3gscVgUw740tzIFpSseXr5dKBFkzwsr8wVz7CukmJzKdIacL75sYrzzsBnW4rAoWhbY5c5kS3qt27dK9U0v8ED2M27cOLKt/qtyaudIlz8WAczASQRfwP79gNcRdqRekLpiI1RfPH36JSDWjRYpBocVBIZ9fHW6SG6+AU8cEqyFMHGtzbeOqV3L+bs/XQlQXfOJo6+slNPTzG2h8Mx9H3CzQf6SQRc6tvqlF/i3C3LW3etLDjxHwAOmmlvYW+I9RLDcIc6PsZM7+v1x8kfr5ndX9Xb8yJUEvoOFzDml4s+8nerFzDrs5sx9Wvqu9VC+7KrefYbpuiqfeLcZPtuN5OnsHqJV+8NwpWV3JpQHb5IgNQouob9AxEeE+Cf3X8ZM90VR5Yln9OYKAmeYvM4p9wBcEntesMWRfDv7sh9H6X/swyk2a1VODTuKvNhLVrIY71BB1avZA2uuUo5p4NHgd0+7+sI94Pxj035+6ChoRCUG4OtbZT0gzFIKE4w2DqrodX2uACVXy9TenkXubKlzoKUgHW8YgTaAXCgTSSxqFDEELmUUa0m2qsRqldpdtBjOfTzVU0Yodx3VHWAOFhjYnpO5SU4dZvFPILqJuGqMNXgiE6jotg==
     environmentVariables: {
       }
     image: docker.io/redis:alpine
@@ -193,7 +177,27 @@ applications:
     version: v0.2.3
     volumes: {
       }
+  microservicesdemoemailservice:
+    configs: {
+      }
+    environmentVariables:
+      DISABLE_PROFILER:
+        key: DISABLE_PROFILER
+        type: Value
+        value: '1'
+    healthEndpointScheme: HTTP
+    image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
+    name: microservices-demo-emailservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts:
+    - 8080
+    tls: false
+    version: v0.2.3
+    volumes: {
+      }
 environment: dev
 host: ahoy.cluster-02.lsdopen.io
 releaseName: online-boutique
-releaseVersion: '1.4'
+releaseVersion: '1.5'
