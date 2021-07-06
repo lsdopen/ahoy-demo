@@ -1,0 +1,21 @@
+applications:
+  microservicesdemoemailservice:
+    configs: {
+      }
+    environmentVariables: {
+      }
+    image: google-samples/microservices-demo/emailservice:v0.2.3
+    name: microservices-demo-emailservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: v0.2.3
+    volumes: {
+      }
+environment: dev
+host: ahoy.cluster-02.lsdopen.io
+releaseName: online-boutique
+releaseVersion: '1.0'
