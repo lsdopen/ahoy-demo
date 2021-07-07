@@ -211,7 +211,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgByRKf6TMWZazf8/elsNV7Y1vhf1UKLOnduloDkym8ZNn2c3+3cTh0aKW0ZEl6h9JHtnHaHXsomXF232R+E46QuSaWpMCwcRT3aFv4L0zmyYgAoKEeyNcfOfT4IueaKknT9k6Cn+Wc13X1eQ4JM068IBV9vUUCow5XAffQYNrlz4dukhm8emu6zkbPKajDggeGo7zfkM0aYTOqZLyIfveeN8HUPLwf3WgPNdC4xPm+qFfMY/09XL7hlX01ITYwt13/TWYA6OiXb5UGepUbRIwL3KJxADs9t3l6BbUzCQkGi3evflaBqLXBSv48iYufbr1JS/O9xIdFiUdrVqnHvL5+8AFeU8OlH8oDayARoU7wtKv1LzD/gZg3HgjwW7xSlG+5JC5rPHWTw3WQGxCnbBUs9gzbLqn2WfJNN6jFRVPW8h6lY37y6O5/HQM/Sx2c4Kp9kryZpXWt6r7XQvxBoe+gRvEfJQhcu5YI9D4XVG7Pxqd0TqivUf9/ddwXnj4693PtKVhyu7BbzGfpkxdbKek7MQHjH0oloWdFdcD9Mz70ERWkRjP9CvRdZbAeYJM7n3r8rkSLqhiVONm33ZAyslZDG4LVEBZPRujIektmzMDD7LT4kUGtr29701GkdWEK48pp0cEH6/EQ0lReb8DjxlfUFFfV7gBZeMB432uY84O/qd4kvC0Mb4SWy15DYdnZ9zVggEfIzT55pTwQBRuzbtaKqRKwdeVZPoVAgyrCtXtqT71gI0uDoEG6GP3W1EcZKORBujpx8p4deRrQGX0DN/3GzPNkIJoeaGqk1O1/QKYH7fqE3yfFyvd2sAlKRoh3JIH5KEPNjulfhoBv8sP1JhnvJwjLupQ==
+    dockerConfigJson: AgAtoyRGBsm848h7xFo1WKbePmbtnS4Rbee7AvQ46ht+ppf62cZzDfnM0oZv8AJ03+eJ8yI3vkJb/eLQR5jbgj4TOoeFAlgKx+RDRZSJUDdCXsSipPPa5S+iekTjP0DB12ynwyZ6W5GMV33kj02T3jwpJqT0RaK83Sk3KPLGZGwe6O8WDIEyJfvJO/RfHQ6OKiE5DvDo6V/SnMb1QnveHv3Wbuj+FnYLs+Otsd4MKZ2mVn2AqjyGBhgSLFkHeashrYTPvMN9TvVKOj29OrCreLzEh9cUpbcQ+0kXzk9/+za1fSt9Kc2ddbWtAd+MafYLBG92YjoK3E59i+VIj3y2Pj1YWYR/zhwxTbW5XK9fM+Xx20AYtJ9973yPh47XFWaL1yPamuEyX9m7aANGS05iYBIrVFuxh/8O6Us12t0zE4QSei21XueCMejdOKhyOZzStwwkYGkF2iclyA5Q2WtaYa1oPZjOlGpqgOjh7Qu0VN2FkkruqptX+Y3O1zsJLu5yeV4zJGveZFSdUsdgeT6HP7UO32OF/U3fCWw/louEo1XJ7RtLrv5Ah4VKLrBw0H8rLkryhwJC7vzuOX7u8IG4OcziK40Cbgu+heHGIY4pjUnkKymRlbqlS9EBufMVJuJlmxhgkrjDWq+FSx4KsHd4cVeBPMaXnA86J9FpS/pGKvQSG7wkVXncIqkwjAJ72ja1LsmP/C0Kh5WRirM8bVxkGd6QfFNXThDNIeUF8DXt2iOy1z2WWhaiYt06jhBwiNoBz+gTY46MD95qa5k5GGPDzFZLexh6O2jEyu728z9tQXK4cu0vB1GapIXonhGGZXMJ4VKAmn+CResKpnYYAqiBnKZzAaLL1w==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
@@ -259,7 +259,7 @@ applications:
       REDIS_ADDR:
         key: REDIS_ADDR
         type: Value
-        value: online-boutique-microservices-demo-redis-cart:6379
+        value: online-boutique-redis:6379
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
     name: microservices-demo-cartservice
