@@ -123,6 +123,8 @@ applications:
     image: gcr.io/google-samples/microservices-demo/frontend:v0.2.3
     name: microservices-demo-frontend
     replicas: 1
+    routeHostname: online-boutique-dev.ahoy.cluster-02.lsdopen.io
+    routeTargetPort: 8080
     secrets: {
       }
     servicePorts:
@@ -211,7 +213,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgAtoyRGBsm848h7xFo1WKbePmbtnS4Rbee7AvQ46ht+ppf62cZzDfnM0oZv8AJ03+eJ8yI3vkJb/eLQR5jbgj4TOoeFAlgKx+RDRZSJUDdCXsSipPPa5S+iekTjP0DB12ynwyZ6W5GMV33kj02T3jwpJqT0RaK83Sk3KPLGZGwe6O8WDIEyJfvJO/RfHQ6OKiE5DvDo6V/SnMb1QnveHv3Wbuj+FnYLs+Otsd4MKZ2mVn2AqjyGBhgSLFkHeashrYTPvMN9TvVKOj29OrCreLzEh9cUpbcQ+0kXzk9/+za1fSt9Kc2ddbWtAd+MafYLBG92YjoK3E59i+VIj3y2Pj1YWYR/zhwxTbW5XK9fM+Xx20AYtJ9973yPh47XFWaL1yPamuEyX9m7aANGS05iYBIrVFuxh/8O6Us12t0zE4QSei21XueCMejdOKhyOZzStwwkYGkF2iclyA5Q2WtaYa1oPZjOlGpqgOjh7Qu0VN2FkkruqptX+Y3O1zsJLu5yeV4zJGveZFSdUsdgeT6HP7UO32OF/U3fCWw/louEo1XJ7RtLrv5Ah4VKLrBw0H8rLkryhwJC7vzuOX7u8IG4OcziK40Cbgu+heHGIY4pjUnkKymRlbqlS9EBufMVJuJlmxhgkrjDWq+FSx4KsHd4cVeBPMaXnA86J9FpS/pGKvQSG7wkVXncIqkwjAJ72ja1LsmP/C0Kh5WRirM8bVxkGd6QfFNXThDNIeUF8DXt2iOy1z2WWhaiYt06jhBwiNoBz+gTY46MD95qa5k5GGPDzFZLexh6O2jEyu728z9tQXK4cu0vB1GapIXonhGGZXMJ4VKAmn+CResKpnYYAqiBnKZzAaLL1w==
+    dockerConfigJson: AgCirx/Ptnh2KfaQjwa/yJoVWTFy3gisuXDyXEyJk+b+VFeXJgyft7k5t2zBd/1XiuO1p79NsM6UnVvbVFV6mY9qNHYKz4OpI30MG4+gM9Utd5/IpbO49Gq6NvT51wonkXWK+StqSQsYC1Yx44UwTEYXW+vaONyd3KIUbkWnO4SyeocRT8iL/fNkuF2Qv3MU90UgdHR4m3rTpfp+8S+WjInMUXPmOmjrNaN7RgmAhVz7I2spOlQou2gmLQWTxdfz5OSizXZxD851IOrfffhwPZ2t5JJqQrgUF4A2RUwcgrbRUq4CnaP28YFkO9HvC5Wa9DSDVr/B2qEkRIGPWv6hL3XOk3GQvW2iZsZebjOoRIZwqB17egtlhLE5ALJqhqoT02EO7CPzmUxNnJ2/J6R6uq9q9rGDMmiDIf9WYVpg4ahuZIUkEzN/CduiQpCxsibwVoPxICJp7HA+cmhGioKkbLj3/Lp4iBBYOhcGSqSmVWRBCMAnKMfgWrnigbf8g81BSZP97sib/eSWqZl++U6t+uhMWNJcvz8nB2CEU3YgAAtqk6G2tHun1KCrUFs4SpdWVOTDcW3J4fxe2nWjLQa+IgL4nlEQuRrda7MxznxWi6GtQ0tgnWno5+/BNlJtAxXMRXPnEVwYUhpL6zgidU3tlJgVLYWlR16dGEQSkjzHWB2QPPOPQ5uiGLY3fkqkaxbeK4aQUVi3QIrioT9uExrgqhp6n4nOf2Q54ksBaLlZI3jhi9MNZn2trkxZTKTWrDfP8bVRL2ztzNDZYPR44+3UWvcW9dAyxQG8V4ymE3fcYy+I2KstsfF8qlVQJZiYWxVdO7gxlpe1Dt3QUQ08Qw4Olk0vs/95Tw==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
