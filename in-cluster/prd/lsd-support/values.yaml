@@ -2,7 +2,7 @@ applications:
   ticketingsystem:
     configs: {
       }
-    dockerConfigJson: AgCH3VmTcAR3r5BMg7Lx5uQ2tNCwgfdU48/mXn3D5RowXOXswJcOFOYoS04dZF0Yv4tmZukYV1iyPkQ+SZEXGko3dzWwj8DxJpCG6idSHiJIByb1jwFwvx+klNbl8kPWW7zbYMqOzdzt7Ylv22w3g2mr1Qe4j4KqDLYciph039gQRMHQMgQbpxq6gUsvXjY4s45d2WGP2zT1+sYOfYDBjqT1ahkQjTSOvU1sOYMx9uqybLbYp6806eGFuwerokHUBIMyoybl4QQdM/vF7h/yTN/n/Vay+RAOociL44zbLZPp4/ytZaqeDds3AuWLgUw7lNMFpTYJ0/UBasZhpeneQJRnSpLdQCPROo2HPaVfj/IR8Nfst6qwP/1wM0fc52VJu5lkoD+ea/S21qUTRJuBqVkTMh30sREGE8+r8wcXlZSCNw+9gAz7DFtz50Pdk+gWh9hEjlPksQ1dlQJnL5tJNB6NS9T3P4drqt2uKf1Ah84lGpsw1xCgMNMj6nyvjgzTjgSxaScsE2ZSrLUwjcYROjk6FR1ng1TKRW1dXjmFTEXPwZEQcyPSE9k+z80dY/j5hRwwHFznpbPCTtfi4D0Aks/3xc/FtTHCK9CQBPG67U5JXG/dg5ytRyhE1O6wXnMFy7Oj90JESdM6UI20Z161XCLJDISu8XiThzp/rPtfSmjEYMRVdEV50M4kj4kqZ/3UMi0p+KIc1g/EbD9zpMH+QQvDC5nxBhFNdyfi2ZQEaRmg0amTORp58AGnxmyV6V8n3Qag1dmRbTXkrGEhjvCop1ZYLeLbBGzAWNwe77fxsxVJOXWQIqzJteJo/hwisIr3bU/V88/0MD52B+wQGqiSXKKTsqpupw==
+    dockerConfigJson: AgA0kwk1SAVnRXp8m0MZN3zrZ6tphK4LZ39u+KaBfC/Z7fX8Z2BblSJc6h02ZqgPkAPbhnuCKdu/VAStZzWhpMkJhSGW3KcHODz19y2FtLy4gCkKH5V79gkCOu+EMRUY8PAR3zPrVvUpJjnXPkzxngDfw1cOOYoVLd+ZH/Kkpqg6Oty2Eb+kJkrWW/vDgi885xG/ZZ9CescZ+6T+rQa1Cezf6E7VZ0X+KAxKz3JI5NSr5n3mnN5HHmsqO5I4y9U5mToJOWmsm6VdsRe8905Kt8GVfJcjlR5OQReDBqVvBNlwv3BN43Ag+7oYXI7aJnUdIFzM+3EVYGZv9nGD3kRZEjxLF+oZqmFZXlUoBe5ouAgn5geKFU3v4EjNLM9j1nOP917kNK9VjLb9IDsd0s5fl0eyy5kvNCcafUO5S9+sqMxcNeRdEQGftYAsNQLZzB1hMmxsXGvKkN+IB5B9IApoxM1a3Wonino5zFBUT3UlsuIyY4rc5a3fvT2vZJLigpV1o3EsfiQWPmHZzp0OMSlb1goMO6jXKXoG9TQQw23TpX8A0YaJ9fx+v8Bclxnf6s2k5VUNDqt4dSEQ2nTbCkL0S20cCohz6lMGlUaqIKl80Lxe2jhhCKtoiEXYGCw2eGLoCEx8te9hkmh5+vLr1cdwaYTP0kr5O94vG8jnaMKgRYQYFe60BhTWA6xVIDBJBun6fP54sa4g+HkMHLHjyAocdA5yy2mTQdh6FMIbKVIqdVuJBPhyElUP5J9uoT8ik/2AJq7ZqpBnk08qIFIwQZ7Ip4h3BznIXuSHqME6XnNyzZq2XWIIzn2hshk7MnyPPYiouYkJ8nA5ZvN8yIRdALpJVcsygTtKJw==
     environmentVariables: {
       }
     image: lsdtrip/cp-spring-scaffold:1.0.63
@@ -16,27 +16,10 @@ applications:
     version: 1.0.1
     volumes: {
       }
-  alerts:
-    configs: {
-      }
-    dockerConfigJson: AgBAhHUTvDPniX/I5aJwuzrieaXcD3nl/88vGg7TnuJPBv4ndnIEKb8zLUQqMKn6jzfMio7i1ZPxqroB/BaJph+/yURF4RhU6AONr3vagDBzi04yo0wrijcqPbjoXz/EpbC+jXUNsCRLlA9NOB6Hqe8JVnV5UjGe24Z/aP7rtGaV9SEHrvSgJ/OLtD3WmNXhPU5bjv/hjZFXbI40lJTuI0dp3FoesHOd2lcGKHyhgDejpk/F2/Ks8T4mOcr9YzhjRl2KQqd1Bq2/My0Ppj+n0QiqyR7w3/nNef5z2z5LDA/ENHRBCMPQLsZLTcPe77+P5v4oIfEYIWMuIdih/toXdqY2AT6+5xEvNoL4NUIOq+vfdO4OnKswO3aCqJhycYpmxx/2QITUJApYNYO5rgSca4Bb2Hdb+kBBYTy2CbwvcMb7zwznA7r29g/A9GFVxT54vd+lHbs6oUwFMisbO+ZqzA/FnRzq6IEhjKwrAMwtS20k0NGMsvxlZxRSKudlnDvt+o9vv9JWmKiUSMAeDTpPW7EypZ35AGCK1D74SBrJOX7qX2JbcxExM15FJ9FCRRKz8EQTfNP3V+G2Uyx71KK7BX7zAuHoQ94IPROl66NMmWthy/4lAhvEyU3afiFNNaqNmiDt/UD5fqfk9BTref4gPSXYuvvEUfFcqvsYsEI7nNAu3VKkM8LJv6csBen/JTpKJkGnFOdMu6pMLl0tCw6tHPGVUatXQo/DXvHwdWiIVkGL1DT+7H1qdWUL8zP6JsuRwKRj8dZicVpSXKypM4DJ7tAWGbOGcmQ1HZeIEPbDLHWZ0vQRtWscG4MFxk0Osx+mKRPLzK7Fb6UgPnCXmu8ujke5QS4hVA==
-    environmentVariables: {
-      }
-    image: lsdtrip/cp-spring-scaffold:1.0.63
-    name: alerts
-    replicas: 1
-    secrets: {
-      }
-    servicePorts: [
-      ]
-    tls: false
-    version: 1.0.0
-    volumes: {
-      }
   customersurvey:
     configs: {
       }
-    dockerConfigJson: AgBNrh+EYQ1RGOTgFT/n7oLxdw+Vke9ej/lrB/XxPbQ2wuzzhds1JjcqQaKgxkLCbhsMcHhOnlfKB/Xs1UJrGOwTwBYadmYw0cePpmNwoyli2t9Bcyltm4/pT54d4vNFXVKlkh5enJFVj2CiMS7p2Mam5wSPiEC+tjiyvg9NQi2+LvS3CjqTeDjUJJraZoNgDC31p9bIsuJOzhSNT8vrzcZFlN8OyaZvXipWMxNFERdFVuHH53xf+NzenSAOPcJKYhJP2n14jV/me6BJNxtkBbFzqIhLSrXZSkd48UO3mlb4s2pbtBnsUDTMe+Z9TP9jXhKz5EA7kshfT4PpETAwcZJ64fUICqtLYr2Nsqyxka4cjyVA6I1rtIV1MkqZeUC3HA9lht3LUBYBPKQkKeR+IfntKqDyagIp4ftYMXXP1nIyWTxY9E0AvU5tNQBF7UeJOH9ITPx30DHu8lv2Le0nBMBuaLTFYf69stK6vJRfNbF+D2ZgGbPAS0tG0FYLcR5UXf2AhciHZp5Urs4DgVTWN8gzGZtDtITtydhFQduwDzp5S2pBmW88SRGybNZ/gOvJcOERJL7nNin3rsV8NP3NmS/kqXFF2qMVyvUs5joS6xxrvLnVv1KTym/1CpVSGafostQ+Vco3Fk0JqMy1gURHySlf2FuyLzGEihlVHXxxfe26WpczjDNeTiz8SxaQ4HF7B4P5GYefvzMXSCqxGMTsoqCVAhSMzfB9BPfARK/nlLEmQfqohFuvqw0x+oOx4MM22oi2kBz2l7RRM9Q9zJ8qJTqLe/e3zoV4WHnX2NYEQmC81DkV81LoecPOvDrY3ldJ24VRyx7Shdc/QklJgn3PzZ+9nk/wSA==
+    dockerConfigJson: AgCQPs8WLoaNAHgDT5tOa6NfV02TRmn9a1k+M9qN7QNbRCFeg+v7wur50QO/fMw8MjLspMZrsTaQnmzLIIU+iZVaDccjOcnlpOr6gtut5wKgQwxYxsb4adhJndU/uKxlsYhsowaIfgcn5kJc60uSP9JO4bJCnGnpfxtLNaiMbzharDrM64MYe6QeD6xv4kKnqp2F0csiHJyjdNkDG9gzYPeVK+uJoQ08YzPzhsK7v7cutD4/FfUaEpw7glDZlOlTwJKgHWYu/t08/xnnPkP/vPdTLcU8aSNALxMNaJirk0vie7MRChSo40suAKSmMV3tG3Q25FEwQmx5naDKP2m70/N9DQJvrqHMJweib2k2eJTCnWbb5+SZJqqb+aNFdW0K7Sqhx5ISSv7jlq0hEFHa/bj/3RBUdThxtVzkHyFk2M/lfHxfCuI8wMaoTkubZuKW4zNeRiq69yTj/OI97egRWtbw8XLJkKtvJiQvjuEkxtPFr0FlsJees3F3kC+AFNT1j2hDMABHYtU6Ye0MA5xYzM/bxjTmAn5MRn9A7EJ+V8suBXd4uG+JoKwyPtbr9NY6s/7W+n2B84ffuKLUHdqQZnSi2VjGd+uC1kQTkroLSaQGiGbXGCTFhn4wJrybXOnBqx8n7X6E0dFN031nNC2VNFMKPf8OPn+6m2r7M1KxpnERJwLD8UbUgrHCvhg3XPyNftwaOTuc60Qy8qbRLSYHo4q7E9E9rgUodUoyrA1z/XNsAVYMKt4Z5AAiw6pD5YvuHZEkagHM5HCcZ0AAuF50HC5JuD8Ugbe7GjxO5QMdx3hmsUqbe7sKOClXWnrzdn/wj4ffJZZ0a+wauG8/XC3GaTPldXnvcw==
     environmentVariables: {
       }
     image: lsdtrip/cp-spring-scaffold:1.0.63
@@ -50,7 +33,24 @@ applications:
     version: 1.0.0
     volumes: {
       }
+  alerts:
+    configs: {
+      }
+    dockerConfigJson: AgBiP81vzyATCtU16KpRbzEfISp/7gA/AXmZVXJBv/vIgE+N5WN9tYLF5zuL2bakuL48oYWcOzz4PdxbzGrm0PzgPfgMpUzc/lUvYSBURaDjVs4wFI1pfQSNgWyW6EyojgFXzqYHx67OyX693TXwqFsclnzG9BDPCM4jxV6az4YtaMhWESClUuyo7kAevmTCbOWuaQ0axyFQLl6Y+5JA0FuytCsLBOX5M68FzzDrtUn3pUqTP/waDZ/flFgqyB8QUMM9qzRUp9lUA/1ewNEk2z33JKURl+7pDW48X0fmAxpcKexGtVR5PTm/SzMTfcSq2F/IhGIjQzdjA7QHQKJ3i+I+JTTnUDj15j4M5ZiRYU8+8KtV+6ZLzfQFncpRCsP03SIsSPqjtwIRPwLbKM1mFpfBv/ymHDdCs4I2dmq1WVVy23xW4FHGqwD+ZyfnggA45Qwde4FlOjVhS6VSn/YKJt/zddNYZGslQqBubEPVXi4PRnutllcf9lxbXLH48EbPSI/hRVpq9Mv/DSKjcispvBiWw2sCgzmOoeKwwIlJv8oG374BbDT58NU38ly6Aw7GuxvOuVPMK73AHVW12oMuddy5kXunrT8ST/w9/1dBX/gLyA750qXCBDRcUGCVBhz+A5pA+R1jXtL5XFeas/L1lhh9+sHz+JqCDTlUj50q5Ew7pRlh62YQeLeijY1g+/Ntx3IeN9nbPcRM3IepSlCZp62vBgbzQG9JnU3f9lv6LjKC21GndWD9UeKy17A3N3G96kGFxagvaV9T6FdS86YrEk2SmIxtbySbKKspuB+zPuNpxPoAzx+GqrtBTdwT3idN9TtzR1TxqSUYgqCuRFDEW8TjqHyMiw==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: alerts
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 2.0.0
+    volumes: {
+      }
 environment: prd
 host: ahoy.cluster-02.lsdopen.io
 releaseName: lsd-support
-releaseVersion: '1.3'
+releaseVersion: '1.4'
