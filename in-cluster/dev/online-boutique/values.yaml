@@ -168,26 +168,6 @@ applications:
     version: v0.2.3
     volumes: {
       }
-  microservicesdemocartservice:
-    configs: {
-      }
-    environmentVariables:
-      REDIS_ADDR:
-        key: REDIS_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-redis-cart:6379
-    healthEndpointScheme: HTTP
-    image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
-    name: microservices-demo-cartservice
-    replicas: 1
-    secrets: {
-      }
-    servicePorts:
-    - 7070
-    tls: false
-    version: v0.2.3
-    volumes: {
-      }
   microservicesdemocurrencyservice:
     configs: {
       }
@@ -231,7 +211,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgDNeLIFYUmmn3VQ1wsKprX+4NyCOJm0L8dzWU/LhRJAl+/ONPeORu81eJyNymXWFRnagOx7zNBbiRMhw4CT0fWkOitT0M+O/FpKeATZzCIuUg5VyNyDp71qUWJ7+lnKZ7HEIueG92BHI0BxG1wAsHhwODOcBgI7rdzsXSODmIiZQFixgk8AaWqkp4jN0zSSJWsZ/ATeKuDZWLHpjZEb3Y1sk0zh8d+DOhP5aXVkmcRbKycCn5SLZagY1xMY/6kOlOIdzAYRdfHNgNTSpqgfEyXf3SwuqOTtPVSoKRp2U/g555I5G5Xs3EDr54W83pFDyKozXXzZCb5vPneWMofCZzYBMDF4fEMNzmi3elkgm7L3BmeMc7IMU4FgiEkVIKMErNzsF3ei6U6DcHI6NaH2y9uv3TMhaW9v6bE62mocZIXi27GBjW+ZLwmJo1Py8g84fs4adQeohVc/rmGWxTe20jdOplHOrxQpRkQetr+STKDQDP62dJG9mLv1NXLTBbNlg2pBNe9c2yb8hSC70cENgAPbFarRMflRIe360JFwvCi2HTVskJHJbhA6ObFDS/yJ0ozytv/nxGLFW8TwrBwV+rK+EQSkI6oRH7LgNxwf8a9b11LpYmWPPsZsOucyi9IpnLwyKzJXja3OvS/aPxy2B+j5oqR62g/XucXljCOVwNc86TQOnxdLmDxMVjkPhYaLYXNbbNRuIFfgp2pAArvcHy2xnaeKdFGeVKOUpIXJrUXnsKMcN/ndg+jpheyuXdlc3T5rvcV61PsPTN1b7JpBlPwj0EEkp5zClxgI+1g9ckDLEETMSO945pgpya911wCmgjf/e6A6IuAQxbtEjNNIzIBZ/4j2QQ==
+    dockerConfigJson: AgByRKf6TMWZazf8/elsNV7Y1vhf1UKLOnduloDkym8ZNn2c3+3cTh0aKW0ZEl6h9JHtnHaHXsomXF232R+E46QuSaWpMCwcRT3aFv4L0zmyYgAoKEeyNcfOfT4IueaKknT9k6Cn+Wc13X1eQ4JM068IBV9vUUCow5XAffQYNrlz4dukhm8emu6zkbPKajDggeGo7zfkM0aYTOqZLyIfveeN8HUPLwf3WgPNdC4xPm+qFfMY/09XL7hlX01ITYwt13/TWYA6OiXb5UGepUbRIwL3KJxADs9t3l6BbUzCQkGi3evflaBqLXBSv48iYufbr1JS/O9xIdFiUdrVqnHvL5+8AFeU8OlH8oDayARoU7wtKv1LzD/gZg3HgjwW7xSlG+5JC5rPHWTw3WQGxCnbBUs9gzbLqn2WfJNN6jFRVPW8h6lY37y6O5/HQM/Sx2c4Kp9kryZpXWt6r7XQvxBoe+gRvEfJQhcu5YI9D4XVG7Pxqd0TqivUf9/ddwXnj4693PtKVhyu7BbzGfpkxdbKek7MQHjH0oloWdFdcD9Mz70ERWkRjP9CvRdZbAeYJM7n3r8rkSLqhiVONm33ZAyslZDG4LVEBZPRujIektmzMDD7LT4kUGtr29701GkdWEK48pp0cEH6/EQ0lReb8DjxlfUFFfV7gBZeMB432uY84O/qd4kvC0Mb4SWy15DYdnZ9zVggEfIzT55pTwQBRuzbtaKqRKwdeVZPoVAgyrCtXtqT71gI0uDoEG6GP3W1EcZKORBujpx8p4deRrQGX0DN/3GzPNkIJoeaGqk1O1/QKYH7fqE3yfFyvd2sAlKRoh3JIH5KEPNjulfhoBv8sP1JhnvJwjLupQ==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
@@ -272,7 +252,27 @@ applications:
     version: v0.2.3
     volumes: {
       }
+  microservicesdemocartservice:
+    configs: {
+      }
+    environmentVariables:
+      REDIS_ADDR:
+        key: REDIS_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-redis-cart:6379
+    healthEndpointScheme: HTTP
+    image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
+    name: microservices-demo-cartservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts:
+    - 7070
+    tls: false
+    version: v0.2.4
+    volumes: {
+      }
 environment: dev
 host: ahoy.cluster-02.lsdopen.io
 releaseName: online-boutique
-releaseVersion: '1.7'
+releaseVersion: '1.8'
