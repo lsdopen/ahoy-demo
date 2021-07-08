@@ -131,6 +131,8 @@ applications:
     image: gcr.io/google-samples/microservices-demo/frontend:v0.2.3
     name: microservices-demo-frontend
     replicas: 1
+    routeHostname: online-boutique-dev.ahoy.cluster-02.lsdopen.io
+    routeTargetPort: 8080
     secrets: {
       }
     servicePorts:
@@ -185,7 +187,7 @@ applications:
       REDIS_ADDR:
         key: REDIS_ADDR
         type: Value
-        value: online-boutique-microservices-demo-redis-cart:6379
+        value: online-boutique-redis-cart:6379
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
     name: microservices-demo-cartservice
@@ -264,7 +266,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgBKFjYPhdMC9fiunZP99+hVIYO+4N3Sz7VbE/SVpRIO317s+IwhHbaY69nh+hKOWjlBF7PDVUEokEIUPTeBb8dbUP96myicsxtdCO9LWCMjUTMwNmvtggtUllx08OmqH8sjEt+UOPxSAQO/1DkaT2tPYNrqVi7/OTD4DYtntOd++0DCbSdFYkBh0WxDVyx/EMrcJ9HxM3LjxymwkfLp4J58TMCR1FDM2OVgrHYoEPQ1Keb/EiBZiFA4MMJVFIlba+PEkjQp6zrC7brnUfCwNDIxUhekJYUzTXthxNKRlgDUkMGEUSb7lyHF6+UinLYcyIEjhlTVLxxrWyTEQesBOSdDYTWcIYkqrWlqmGIP9BgwhXKyu2zx0Tv4q0fAsg0eDF8iHGrYnRKx6UHJJjxJfcW7FXoT3ubM3DOkofMDkI8sC9B51Q6N4blleg3CSiBpGN1G3Y5HSUfNN0mS0KYU7d5cETH1PB8WSqBtE6887r/hPbPXaPGhirDtgb1HupO4iaTblJGgBK+A2M4ptbCwqb3WdmZXBxznPiM9c6cR9MSh8zazr6N4yErSVQShINlYAbMAHCeo6yvXes7Btz7tkWsvG4WbvfOTYCfoHzhvf+VRueND7gnirGHL63hCpqswpQwTUJTnSEzYg3Dtn9cMLovLAfgaximKotTEiKe16/UG61vu0Zjdqjlnj1B3CDh2kF3pHlyCt7uMPplWI1+CjLwmqGPmnc3oum4YyLv8WFtSK07Kg6zRLnP0Rzq7mz3znOx4y80KJhIh6nikPZAOn+rxlBgIS0UU5D+kz9lVp+Evvn6Izz+WH+/hRbfBIFtSsNTmFJcA4gkF7lXXljNG09WdIA+jVg==
+    dockerConfigJson: AgBd2uMwmZCJ5ieo5H6qNYeNZt5crB875gZttCNvMl1RoPs+9VRobT+uYP0GfnDwCZ9zRC20VE6DkUQ0PWRddJsBXn/FvH0zRRSOSnxMfZj73so3UMLyj4TVqxOm+4Ajf/qz3uijWz0zPym6RDWXAtklZaAEMH95pQ47Gw+lgOTaz2siwS6jwnJtFrOkNJeHdSZ5f/dtsQCt9MdIIsFNxynU0oULvCRgEAlxfeeEHMC2hWFYRY8BkuOzxGM5k1k7XlGCAjxNAlfE7hCS02HZyyWPVhT9KwdmoP7aBmbfTkq2Y/uIfjW6vbuLEkI1mIBBUC1spcDE62zF9srxNbDoLVy6JnLsBVNaaItV/CMcysRIUWWYqZfpEXPMolUN7saNdmM30CWTVzObl4bIsYCu60c3miwIwS+4bOIRfYCeOZ9P/l8IppbwRz/X7EeE2VSFp26KNuwnBEdlnVaq3y8hwr5TX4/AKc3D9FZhgouPdC11bg+2TnX2k7de2PNAxqRluFVWw6yJC8hfuBO23LQwrh5lDZXfFx9S43+WXZJGLKqUl5vfwReab826nD0VUwLGKdDx6ViqyQ7PSmbS0f3puc1BtR640UVcHmD0CeODdf9IRoh3nLituc8xdDKD7GBMY85f4TTYDiQoWG7vIhDMmyn/k+Aj49y9VyJCi1uPDFbjojJ0h4kjEW00uRjCqFNGEumknML7boyFdoe5/PnfmgFtMsxQ32khTHbKO9iC4YO4zzN5xTZO/AWaBMNvuKVmCXpy3PUmtUZdaSb5W8lgni+0Gu/erz8u3I+lIzjPRJJdQI+pyELTBSAMZb5cMAo0uceyhnyJhnz3bgyCJoFIH5O5X/mhsw==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
