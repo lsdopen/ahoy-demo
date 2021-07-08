@@ -1,0 +1,2 @@
+{{- $vals := dict "glob" .Values "app" .Values.applications.redis -}}
+{{- include "pvc.app" $vals }}
