@@ -7,16 +7,27 @@ applications:
         key: DISABLE_PROFILER
         type: Value
         value: '1'
+      DEBUG:
+        key: DEBUG
+        type: Value
+        value: 'true'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
     name: microservices-demo-emailservice
     replicas: 1
-    secrets: {
-      }
+    secrets:
+      smtp-details:
+        data:
+          smtp-password: AgARIR9qK1IBsQxWLZb9jNFu5E36XqZVL8YGi356VmwGuz6imVj2ZBF1CXE345tDjFb07KGBvGDlWzYhGGLYHdmEGp5ct5tNZ7f+Y+33xYyCv2nhR217O3YteZKvnKIeWpCXFYODtnw0jrX41VbneVMZ6ZwW4f8H3QNIG2hlRmGU6j1nmraU4tgF5uBop4GMg4BdhAql4Z1Z44aoF+nIiFeynlhLcDkl8h+fO5FojssE9C8X95CxANjf+OWHEWLBbKopS0cY0tCj2p/eX2viPwVepQrwh+tCZ2j5dZGdCvnVsUikRkdUYze34aZNilRRX2dL4/DIW+k0hCA58agYptN+ijsBYd6NfDqVAKHg3Z6+r6ZAKgEkvxFMFgHbPnRlXtCuoJ9d7WPXnIMynOs2C23p3vpo5MgntPtaw5vNdmqL9QTjD4JijvASfh1Sn9UriA2FuckgSMODqC5HHIVhCwgfIRprdvmdrMXJRcxq5Lep8kWUMBTIO2sCC8SOWFyX3Do05ciYsYn3DZrq2pAxs2mdeOu5xWkC3GOOwTQ4tHKL9+qFdo+RRMLRfh+scsXEPSmMqRaAr+2Y1sMSAKQh1zHFuqausiHmhlH3zfheAkw3zj0tYrmWqgSNj4Nd6iCiRMn05fd3K+XLEkIRJvonvBf79k3jFRAINV7WboBptwm1wZW4INvOQWSCk3zkS8Cc8mJN44c6gcI9nHAWevZD
+          smtp-server: AgCwWe66YTeuthZv02RHsYprzCV42nu3IUNM1BMhfaB1j9+Nbplo+7S9zdBcvJn40LJHd6Te0d9W6eBdJgcZr/Q1q3iog3N0+ea2ZbDSZ0qXZYLKBMy93A+E+71s680rytCd+ezJDJlPbh2DcNwMy6n3Wk56mrsbBDZyGQ5Z8dHWrsH16zrrGeZgeZr4eSQJTC9o6/AIsE/nitfHa7DoaNx1h+2nFf0ZvEn7vUkQZlr2emOtey7Bx6gD0fPjpH2tfrUwsUzx79uXqfeIVq/ZITWRWTm4i8ljhiS4ocr5jqOYbJN/KgT/XfV/DB19Bh45tsEIi1KIcgHV79nOf5CaspODnvbZ8iJJgHXU7Ju0PAcn4lob+skbfbS8ZQlsKHp7TOLbCQ3JIiY0hEi1CTydc0C/6ugbqc/V8ovCpZGU6JEiItptlWDMvVKjTSoo8DESorv+15RPBSsJ2rFiuNJtXkNqMalzMCDu4zfRLGU/HmJZldpO6fPX6wTZ2bleqfOPwvOL26D0W/tytVYlVuqV+/6gU8Kp43//VCCTGu/18HX/xdA+HYHQlC9ahojkKrNOsjuvaWzk4qsbrwz7ZMdZ3bpq2RXJ6UV9i2bT8OY5U9SZPLp+spEtcU1K/Vn1fSA54uQ8cMmIFGZkCRwRcd/jfHYmfcKSpVAsrSM/7BnSxkpWBZVonw2g0M5CLslGnXVpFgqg6ItWqea4E+otOcqMhcg=
+          smtp-username: AgA7W6JOHHv+fdBJiJoWhm5uPp7zibvO3xYQf0F2B4iSisfJgtcjlqunrL62MKzsQY8tlhR2KLwzD98GyBKYl/BslmU30JiSYnz/mShFXHHZCkJoL1aRz+2l6v00ikocJvWGdPd7ZpzmkpBBgPjwTuZ4AR34Rjl5zmY6CumqmiFKXkL3+zFFKnwtVzCmny/qHV42KFpz49r9UsLq5aQzuP5GR/ZxUu40OSC427g7bflRVWtBPBjpEXhn2N2bSaLG1bAd3rZ5X3c+bj/IYXodTJEjy2WFRKhu7h6MzQ1C6Pv6VSaHm9y8y1pTd5vTXbdYa9DzZTb+LLGm9y0eEFgOm4SrjJqKpErDLzK7OAec6OoFcPJJM+j/iLuTMnygJ2ECDw2yCq7xCKpnODat1UUnp/1EEjtBW6QB9ZoxcR1oEvpw0ijjwSnkvAWR2Tu3FZRKzDuxuYTKL3/26xIRcYjgm0O55StTeZnJQn3LTA5ATYi6hr6q0Eqn39d6lUumcab4aIVF1Ljb9JYCwaIu63tPFKJSq7fpp3qwZ36gsa46ap0lrBbcPpnTgLIUg+JpSTjlorvybNrk+XtdZCLUAx3wywFkOyJ9AClpHcwbZlhyF7R1oZpQfpb/DTfkZDu1ir8I9Y1UMuKkgqNzazvG2DEUGOxOPJvyO8LTyrj/5y28kXObeStHdaHSnoCND6jPqGSoK8OCVIkpfT9QcyazQwY=
+        name: smtp-details
+        type: Opague
     servicePorts:
     - 8080
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemocheckoutservice:
@@ -51,6 +62,7 @@ applications:
         key: EMAIL_SERVICE_ADDR
         type: Value
         value: online-boutique-microservices-demo-emailservice:8080
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.2.3
     name: microservices-demo-checkoutservice
@@ -60,7 +72,7 @@ applications:
     servicePorts:
     - 5050
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemorecommendationservice:
@@ -75,6 +87,7 @@ applications:
         key: PRODUCT_CATALOG_SERVICE_ADDR
         type: Value
         value: online-boutique-microservices-demo-productcatalogservice:3550
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/recommendationservice:v0.2.3
     name: microservices-demo-recommendationservice
@@ -84,7 +97,7 @@ applications:
     servicePorts:
     - 8080
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemofrontend:
@@ -119,6 +132,7 @@ applications:
         key: AD_SERVICE_ADDR
         type: Value
         value: online-boutique-microservices-demo-adservice:9555
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/frontend:v0.2.3
     name: microservices-demo-frontend
@@ -130,14 +144,18 @@ applications:
     servicePorts:
     - 8080
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemopaymentservice:
     configs: {
       }
-    environmentVariables: {
-      }
+    environmentVariables:
+      PORT:
+        key: PORT
+        type: Value
+        value: '50051'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/paymentservice:v0.2.3
     name: microservices-demo-paymentservice
@@ -147,7 +165,7 @@ applications:
     servicePorts:
     - 50051
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemoproductcatalogservice:
@@ -158,6 +176,7 @@ applications:
         key: PORT
         type: Value
         value: '3550'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/productcatalogservice:v0.2.3
     name: microservices-demo-productcatalogservice
@@ -167,19 +186,17 @@ applications:
     servicePorts:
     - 3550
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemocartservice:
     configs: {
       }
     environmentVariables:
-      REDIS_ADDR:
-        key: REDIS_ADDR
+      "REDIS_ADDR\t":
+        key: "REDIS_ADDR\t"
         type: Value
         value: online-boutique-redis:6379
-    healthEndpointPath: /heathz
-    healthEndpointPort: 7070
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
     name: microservices-demo-cartservice
@@ -189,7 +206,7 @@ applications:
     servicePorts:
     - 7070
     tls: false
-    version: v0.2.4
+    version: v0.2.5
     volumes: {
       }
   microservicesdemocurrencyservice:
@@ -200,6 +217,7 @@ applications:
         key: PORT
         type: Value
         value: '7000'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/currencyservice:v0.2.3
     name: microservices-demo-currencyservice
@@ -209,7 +227,7 @@ applications:
     servicePorts:
     - 7000
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemoshippingservice:
@@ -220,6 +238,7 @@ applications:
         key: PORT
         type: Value
         value: '50051'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/shippingservice:v0.2.3
     name: microservices-demo-shippingservice
@@ -229,7 +248,7 @@ applications:
     servicePorts:
     - 50051
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   microservicesdemoadservice:
@@ -240,6 +259,7 @@ applications:
         key: PORT
         type: Value
         value: '9555'
+    healthEndpointPath: ''
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/adservice:v0.2.3
     name: microservices-demo-adservice
@@ -249,13 +269,13 @@ applications:
     servicePorts:
     - 9555
     tls: false
-    version: v0.2.3
+    version: v0.2.5
     volumes: {
       }
   redis:
     configs: {
       }
-    dockerConfigJson: AgBiOqJk3KCrMc+LOgK7V1KEng4LldPVQI3PrPcHqoR6QlC0Mk5jQrogLHJUkzPDv3Vg4tyHSHCrcFNngsh5Nhgkk6xF4M+qFC6ojG/7e6MW1MtBVC5m4CYBE/4Y0R4BaMKU9mXUooVYavIeeWqNQORDNUPhhTmhwNaWGzUYVyP19M6YhD4fQEsob8cAGqD8wwWQXC0clQTKMnsEARDxPI4mfKcjjt9wjYHV34Ue4oJ0hPgN8b38QNvgKxU93/SKHq4UuN/Ezvz2Q3aiCCJkbx42OWMbcB5oOnCXnHUOxfKUu/F8PeUfg/tyvJiWJEko/epxq24yHueLC6tHSFjf7ACCI41uBhVfia5hdpUmUc7hpoZoy6BWacAjb+QNSgJu+dL3oJaBCuz1lTeSCWPbl+ZwcS1GeKz4XMCttI8vH0k84ZdX2pMDXZGI8tr5pyreZHtTtlHw74eXGQzMuFUbLJLp4/xrSASZwCGu2c2lGRda0uwTvoaFRGRZ64yyoJLsK2C9qTEsB8LlcjCd7ib1owXR+i5fokEhTYNDJ7qVgHp2HqnagykAtiB/k1N1t7sh1W+PY+Kff+GKZpLnp8J9CzZscGV+n4Pfp2iNTC56TDPegfknGINaertW0bCLGMPiRU/+OuYZHR8FeRr0KQwWonur6rlc+9aH4+nucyAHXvixQGrDoKQCUcmFObPTqdM8LGqGdUz760gvFlqtmWaONG8K2rHDai51IU6i1VXRXhkJCOFqGWPzqbJnYTkjYRhuhNnj2bhoQZ+XL079vUnNZJ1RpNNs790n8lQfh9x+rC3b9ZS4XCzvwKrM8XShTcXxFrOKrJE3TntyxL1JQtRSSw3Sw8f/Bg==
+    dockerConfigJson: AgCfzZ0Zq7fi1jo8C8Lk1XlPE5NcDVHpC4Q5+V6AjYws1UYL6r/Xrf9PEe3NztJ9xrvusqmpl0bDNi3pPFOKUvItprDODp/HUWmvYU+MiqEvEI6bdI6e07gsTG8yY4vf6ezYgPDQ/c29g4c8XjwK44PrBs9X0aL/fCXxK8pgUdPQpH0OU0sDU1QsWEQhshL3aF5XCfOgvY10NTqbShC1g7+ntSEdkEN9qKuF2W/yowMf/431G5h9mBNHeu35V+R2tPVf34fQat2Dahw78ccxnlAUTblX4MO57INEp+vqL2i0W5rWOCnC96GAVSkKw6yW9g09uK9FVx13aS1f5zr1lhZ9Y+9beB68zzVsFVvpiIYrO5npMmgwILIeo9HLMsr/RvavloMUkwVCApxHiwA/YlcsTSh9+PwaHORcOSLusz+KqJybMuvzMv1IaIDY4+6irg8I33zlV6kq0R5PuZB3XviJc/iQuD6DEkbwUBwwJG9NV3E+2E9f/1sUK1fmWblCeTG4Jh5m0U4t6ujY8G7XY8mbbuLUesOlVDL9YoqLClMPYSGmnYC9OSyxOy89oyMHMauTalbd32potvSxAZaigfFdORu5E8EPnmj9mxIa9LSYhlfVb3xXgVVWJ7BhtZO6XwCPIYxKzy3PP3dbx7vFPyGJgeQIpb4b1PdxdhkLIOEC2P5dLKGhQyXNXCp3lz6qosB68HxSYgTYx5ObLvIbhOwIRdDZ0qAYN67iuHBsaIG/IOPHy9Ak7YyBP3OWg9EK76HXt7089sI51AEa0jvkaAJcLmcEADM1EeQk1CxwcCvLGnblLW75JYRsr/OL4WFenqkrL+3lLTyj0uHcWnLdiGhXy52TqA==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
@@ -279,4 +299,4 @@ applications:
 environment: tst
 host: ahoy.cluster-02.lsdopen.io
 releaseName: online-boutique
-releaseVersion: '1.8'
+releaseVersion: '2.3'
