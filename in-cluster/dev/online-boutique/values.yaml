@@ -1,68 +1,4 @@
 applications:
-  microservicesdemoemailservice:
-    configs: {
-      }
-    environmentVariables:
-      DISABLE_PROFILER:
-        key: DISABLE_PROFILER
-        type: Value
-        value: '1'
-    healthEndpointScheme: HTTP
-    image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
-    name: microservices-demo-emailservice
-    replicas: 1
-    secrets: {
-      }
-    servicePorts:
-    - 8080
-    tls: false
-    version: v0.2.3
-    volumes: {
-      }
-  microservicesdemocheckoutservice:
-    configs: {
-      }
-    environmentVariables:
-      PORT:
-        key: PORT
-        type: Value
-        value: '5050'
-      PRODUCT_CATALOG_SERVICE_ADDR:
-        key: PRODUCT_CATALOG_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-productcatalogservice:3550
-      SHIPPING_SERVICE_ADDR:
-        key: SHIPPING_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-shippingservice:50051
-      PAYMENT_SERVICE_ADDR:
-        key: PAYMENT_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-paymentservice:50051
-      CURRENCY_SERVICE_ADDR:
-        key: CURRENCY_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-currencyservice:7000
-      CART_SERVICE_ADDR:
-        key: CART_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-cartservice:7070
-      EMAIL_SERVICE_ADDR:
-        key: EMAIL_SERVICE_ADDR
-        type: Value
-        value: online-boutique-microservices-demo-emailservice:8080
-    healthEndpointScheme: HTTP
-    image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.2.3
-    name: microservices-demo-checkoutservice
-    replicas: 1
-    secrets: {
-      }
-    servicePorts:
-    - 5050
-    tls: false
-    version: v0.2.3
-    volumes: {
-      }
   microservicesdemorecommendationservice:
     configs: {
       }
@@ -213,7 +149,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgCirx/Ptnh2KfaQjwa/yJoVWTFy3gisuXDyXEyJk+b+VFeXJgyft7k5t2zBd/1XiuO1p79NsM6UnVvbVFV6mY9qNHYKz4OpI30MG4+gM9Utd5/IpbO49Gq6NvT51wonkXWK+StqSQsYC1Yx44UwTEYXW+vaONyd3KIUbkWnO4SyeocRT8iL/fNkuF2Qv3MU90UgdHR4m3rTpfp+8S+WjInMUXPmOmjrNaN7RgmAhVz7I2spOlQou2gmLQWTxdfz5OSizXZxD851IOrfffhwPZ2t5JJqQrgUF4A2RUwcgrbRUq4CnaP28YFkO9HvC5Wa9DSDVr/B2qEkRIGPWv6hL3XOk3GQvW2iZsZebjOoRIZwqB17egtlhLE5ALJqhqoT02EO7CPzmUxNnJ2/J6R6uq9q9rGDMmiDIf9WYVpg4ahuZIUkEzN/CduiQpCxsibwVoPxICJp7HA+cmhGioKkbLj3/Lp4iBBYOhcGSqSmVWRBCMAnKMfgWrnigbf8g81BSZP97sib/eSWqZl++U6t+uhMWNJcvz8nB2CEU3YgAAtqk6G2tHun1KCrUFs4SpdWVOTDcW3J4fxe2nWjLQa+IgL4nlEQuRrda7MxznxWi6GtQ0tgnWno5+/BNlJtAxXMRXPnEVwYUhpL6zgidU3tlJgVLYWlR16dGEQSkjzHWB2QPPOPQ5uiGLY3fkqkaxbeK4aQUVi3QIrioT9uExrgqhp6n4nOf2Q54ksBaLlZI3jhi9MNZn2trkxZTKTWrDfP8bVRL2ztzNDZYPR44+3UWvcW9dAyxQG8V4ymE3fcYy+I2KstsfF8qlVQJZiYWxVdO7gxlpe1Dt3QUQ08Qw4Olk0vs/95Tw==
+    dockerConfigJson: AgBKKSa0EKE65jxMyD/Phy1KS6/kag7VMom3ZDQe2GNcarR7nfKJwWUvIh74o9Tr9z6EUqTPzKTRLybOI0e392DePb9JeJhxre0HzKh+/VNwHp87HPJ5ud0ePt2wgP7+uTjsgOLtNQIYr980c/MJGTMTWGohEooMMf7dU2moN5M3udXx9xxAHnBZReZykEkfvEl88GetJEl3QzA+jaOqERoUCCK7UK2MSIiU4ODEpbDrs4u8dszlaKIwDXzVI/FaO/ecvNGv8u4Gd43TtenJSEmt24lcjyTfdrNFEY0jzPHyhIeyNeX9d6PRzX7Zg4GfGFENsmCNGcuMfKZS9ZGyhdDdsyI3gWCDMwCcnoJb5ZLlBXUOTcvOjQ36WON5/UBNDDSiH5+nGsg4ocWnpInpcdleevNqWbTBUix6XNnbM+df95dU1fBzWrlT1TLsP2Ftb7p1SHTPbDuYLtY8w4aVyhaB8WhCAcLHq6gcNfw94X3fLaPe9tgH5YyUn6tMh2tnf2iLbYNwFYdIZYSbpwkAwbmQEi0LGva21cf+Zoo1y8W4f3fSCihfKjz5RjVkdImmEpnus9BLc5cNgjDmcXldJ5tXb7sMaj0dhT963OhAZbR687btTNJNh0c2VKcl/497pxj+bAY2FOizqGnXyO8kgCfoiUOwjbIFwlg1JDATqCvg6RgtKpiR9cCp0eASaZqMcJzD5ppTWEm6biMm8z9W8ABNQeMe67jw+82OTYN8pZUYsOJg7BGJnq2rT1qvSuNlcybZo6781AH4mhJpHBANWqdl2wYaHubSUjwSaOWyjgPht8jQUY1K2BMYs3VG2j4+hB91zltsxyYIm7J2pvgpfEcdxJ4B9A==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
@@ -261,7 +197,7 @@ applications:
       REDIS_ADDR:
         key: REDIS_ADDR
         type: Value
-        value: online-boutique-redis:6379
+        value: online-boutique-microservices-demo-redis-cart:6379
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
     name: microservices-demo-cartservice
@@ -274,7 +210,79 @@ applications:
     version: v0.2.4
     volumes: {
       }
+  microservicesdemoemailservice:
+    configs: {
+      }
+    environmentVariables:
+      DISABLE_PROFILER:
+        key: DISABLE_PROFILER
+        type: Value
+        value: '1'
+      DEBUG:
+        key: DEBUG
+        type: Value
+        value: 'true'
+    healthEndpointPath: /healthz
+    healthEndpointPort: 8080
+    healthEndpointScheme: HTTP
+    image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
+    name: microservices-demo-emailservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts:
+    - 8080
+    tls: false
+    version: v0.2.4
+    volumes: {
+      }
+  microservicesdemocheckoutservice:
+    configs: {
+      }
+    environmentVariables:
+      PORT:
+        key: PORT
+        type: Value
+        value: '5050'
+      PRODUCT_CATALOG_SERVICE_ADDR:
+        key: PRODUCT_CATALOG_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-productcatalogservice:3550
+      SHIPPING_SERVICE_ADDR:
+        key: SHIPPING_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-shippingservice:50051
+      PAYMENT_SERVICE_ADDR:
+        key: PAYMENT_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-paymentservice:50051
+      CURRENCY_SERVICE_ADDR:
+        key: CURRENCY_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-currencyservice:7000
+      CART_SERVICE_ADDR:
+        key: CART_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-cartservice:7070
+      EMAIL_SERVICE_ADDR:
+        key: EMAIL_SERVICE_ADDR
+        type: Value
+        value: online-boutique-microservices-demo-emailservice:8080
+    healthEndpointPath: /heathz
+    healthEndpointPort: 5050
+    healthEndpointScheme: HTTP
+    image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.2.3
+    name: microservices-demo-checkoutservice
+    replicas: 1
+    secrets: {
+      }
+    servicePorts:
+    - 5050
+    tls: false
+    version: v0.2.4
+    volumes: {
+      }
 environment: dev
 host: ahoy.cluster-02.lsdopen.io
 releaseName: online-boutique
-releaseVersion: '1.8'
+releaseVersion: '1.9'
