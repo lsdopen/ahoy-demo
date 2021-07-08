@@ -16,8 +16,14 @@ applications:
     image: gcr.io/google-samples/microservices-demo/emailservice:v0.2.3
     name: microservices-demo-emailservice
     replicas: 1
-    secrets: {
-      }
+    secrets:
+      smtp-details:
+        data:
+          smtp-password: AgBgJiEWNB9mhbtp0KCwlv0Nd+lenNJ1vsHgm5lEQrIqlRynWPe/OTl+4EEP1ClQGguRpJJGszFbIt3DTZz8yl7ZAoihEhOaMJF0qB4lj74bnu8HCvXzOOFQNade+zqLZvFFzB9C75lT3BxDg4aY/ucsBNffrgWV77OB68j0Yw9OGublD7av00L1TTkLKBmT5XxPiKTRWC27xnbbd9F7VpKdVXtwSTgwiIA/Lviub9FZPus2uGIPr1vPCr/P9/xRsJIIE+E66Ygr13zPdEvLiJScTgqZBjx6cTiuBC4ueXERkCKxlKj6lGmle/RMBZzY4p9r/cXLi9HqFiaH4kVd4bNKiOqDHQwJUJAEiRxyaplEokAhMfxo7Bcx8iUK2Mckn6Aekrb5QWtTfS/ZF0XTD9zBBgm6oW3H2jM21SjWJZCiwdMJevXOFiYOj/g3MFcyGjnZYFyRC824Xi7RuX8hm4eA1gzoTevoYpVviRIhl4id9MzSaadW24BEMlbZc6n0VkJqkc9/vRpgvJVW9GyVDGad0bYUmS8B4MzMxjviwkuUA8RYy7BJQU946fjAYVoXQPCzckYBBlToBfpYDcv20nud/6iOHD0Vx05ttW5wBa2BubzcyI8FjyFDYZXlIFj0w7d5IegqAAiqzy4cp9ReSkO6xTmTzvbI+xh3ImgsfD336yoMcL9FuQS0+QIGnfgnPXSiCx3Q+2Xn/gwEf+fN
+          smtp-server: AgClp3JwBzqBhhCJFxsHkuENFp7MtGoMeU/XNzdv00mmKXUo4wFyC2aLs1vfrVEDVwaoEdmB5mmfK/lvOzyv7Tq7zqyH1yEYJiOOVl3Wm3GP59/ZvFZERPQj0Kbk/WSXVuaEFo9R/9O90CwT03FDngpL90vYSeP7g/Au+N5T3+YkGRN1R1zkzDGMtqHFN0Xcv9Uh7mvQPYAjT3s42emJ/J6ph0aDjeMWbwoRQei9GDUOsXE6ZIJ/a0IxSBTXjlXm+J2sgeLnWm8mz+JZ4cUEbcVTfxSs9iACi8qFsrEI3KkDCq//EW7+oru8tQegTXLsnKHEfBeSaQUuf43H2DMaJV/Twc74AUovqfoeG6djANjsnQmAJd/2z3QPwHSVaNtCfDVSZE9wiBdV72Ng5GSKUxX8JJc3tqeQRu/j6Fr7D5CRKUf6gsSoOJv+STYdooee+f1Lm0Knr4olGnGbGJboTodZ0fdWidD085Qa7YK6tiPvq4CNkxFw22uuFB+JwqLWGdkEAODH4X+IcnkOSGFGtOQQf26X/k+PCs25tY2KAn1nqoLrDbP//P6/Gddyr9MIDY2phsMB/SqIlEVKQaSFoxblFKyi3xXXfGzsoMB+KRsCiQzXaybXROauDRK1gswjAmq4WLM9GKERrXnIh9kRZkhOhO+RxhSJTd2wyJf6Ndcq/EwxV8WoQZ9NjG+N7eOkIdrMn7hu904wZhBuddKT/1k=
+          smtp-username: AgAeaGrWtZC2k7Mjpsyq/ZCRLdEBy+JUoq9nBFKu2UW6o5BK85LvBQIkb6/IE9C6cg8VQpZDRYfT2bCMfnioKBZm1Yxkx3b8IImlPQttZoxjRx7oQf8scDxuukToeACoeNv7Yf7cLnR0/49rAALb8tIIqpYv3oB3/puwpCeOkMfMXAbfy/+7EZuaRyI9QKZHfBR7d0HmzJBoahA5zaordH4jCP93y3W3PASXwr7C9TZt3J/RSGTTdY2NtX8WiEX/gmNQ2x1jLsGWBPEuLO5mROJ+fBElnKT8q+rQQ3kjROQjlaaXwhG00DCKUGWu86Gngm/uGjVutMlcQSMDTbVo3n0QePX8gxvOMTumiPMrq1TUjLT4cX0GZ9NdH9QLRcVJ0abF4og0lidGuiAXZPS4g0BE8zcZQQ5JnOfnsnHypy0CKwko+LSQjAPXcvrBcyqVqvHIETSV/E71/SYNHeylFozTh/S0+UBxeLkh02Y9ndSi7EUBcAbm4QPe9UlFT3KB5QS5eUQhNdMj7BHPgSJGdpn74n0wSOHALx2tBW/o4ACIzIEl7OE8hZcnQcslScftbRudHmWxQr/zlFCTtI0Tooi/2SjbKgWqsSFQCPJ72mGnsZKHcArrrEy/d6idDy95O12XBvkuQDhAEfHqXv/isIqgcObquWWxD0zd0aJT32WRTuU+AOzc8aGGv7VDEhDZTTRUSFWEpSEzqvZG308=
+        name: smtp-details
+        type: Opague
     servicePorts:
     - 8080
     tls: false
@@ -184,10 +190,10 @@ applications:
     configs: {
       }
     environmentVariables:
-      REDIS_ADDR:
-        key: REDIS_ADDR
+      "REDIS_ADDR\t":
+        key: "REDIS_ADDR\t"
         type: Value
-        value: online-boutique-redis-cart:6379
+        value: online-boutique-redis:6379
     healthEndpointScheme: HTTP
     image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
     name: microservices-demo-cartservice
@@ -266,7 +272,7 @@ applications:
   redis:
     configs: {
       }
-    dockerConfigJson: AgCZSU5G3fG9n00fpCtqV6pUteJbhxiFDpEMLyRD11jljM8nZ+65+jhhzyIB/5EesQOoXJ3EoA+xEg9mQiCbIAXdzXD1plUD4u3uTqFfHTrQzNLrFLi9+sG3I6O9oecvSXEadID+B+YkszVWuTzcOZlM/W+ZUzPa3xdCPvT67oM35Fid4HAHJtwxzZWau35+Yvy3H0ZheqCVL7IZWBnwSr8dalaQ13fxI35/cEenbGA1zy5U/1MOQo6ZnSk6gLPHnk9K9NSz+c3bC4R94rj1139KBkQqkl9mMeVBOcSyhSwVwqtCgDrLLZMiSrIgn8JQudYku511UOOx0L2AP9CkVyNJTArhHh3UdYOeEvR3G2da0YpzahSQpIbnFTf+VBLIcBmzKPVt4jr3Fcm0baJ2Ar/UyvT8OJv5UfXwB04IHPG9MZh7ySYJIFzlQQM9G84Usmo51jh4jhvLN4y6b0B3MMcsA/xXPFrlRwsoF+GqHWgbbpEhSE/f4IpNdG8cUTW6pCPQHFMUUvyCW4zwps/7IzmriopcrFzGojDIuRGE9d3ukqlURkqddpiRTAbI3E/cg0pL+F73EsSERzVVnG9DumXO1/HF8aHZlY1KlTmtpVgml9FrN42QrZdgjKyCUhuymrFdhTSqqi/z9PBlt5rjn+/Dv/2MoL1uI6bQeMzCucwVg1wtdCAK68nRrA7Z9C7ZBihzbmazPlPXjZ74Bfdz2tw81Co9Zova3Knt0iz/PLQ3loYfYw0PcSchQQooDf2QrBK0ZmDXKrxahHrU87nj493NLWmhCzDnX2FI4mTEkGRRxhp06696dMG9uMVs9ZAFWTOFP6174Et4HZr6uUokZvqbOVMUdQ==
+    dockerConfigJson: AgCZ9tF359SIhYjqebDquBOuOb78VvGjvAqsJv/4jek+r5fgjigrxN5IMaofk5Ov4fgutoQ+smsOg7mKBgntS5zcnw8yybi7VSvMNwdMG+jp0g0NMOQeAJ7yVlndhLP89bLGX3GbC5eHAIQkC5wsQb0vkywIDNg0mj50tUNhpBN42y9RFEYgJrBFgLR6nX61Arwu0MoLltA+i5yiXx5QjhbOmXizQ3J/qO7lZzdCc8VvWCFrW1MXIE6SLFhDeaFtlAf1WdEnPspgb2J5NRtG9+EJsKg+167l+yZO3v9Vj084MvLe/mkQbq3Ns/Slhd/1SpQzl8BfkJ19F4nvCbWzoZNIrs7NIr8w38qhM+BXdBDUikDUjrEYUFKJwPLgQaVgqxWvqFc+6Qn2UPXU3aGUkceQlnW1TdI9BDeYeEQUf0pNR0nOqwcaE74f2VKop4xGwCVARxbM85l3gAMnY1b0J5Qps00CIt2lyX6vqh8Gvkg7NfY2F7ww38SC6Ycog/iuEQwRQBJk6VuUzw31wEZO0EuVKjwk8Vq+2IQk+bjfC1/3fkmaPYWUjfLfw/v5+t51n5ahg8Aeaar/QbndKDeMVIbDYP3ExlohjMo+su2IADgrnQzXXinWcagG604Ptou6/v0GcXfCVp3jBkWF48buSjeCLsznAr+dnn8oASBSki0rwx9r8rVHlIydIp8jy7p5lUIqCVOlXLKOaZJSX5SrESUzpTl2BpAEaeTrVqp1i8AxVSAc9KNwI+4yjqU3UCkt8eeH3CncKzilInv/q7qeqFs6wbRINoqWl5EBKGPGRkwYtnvuf3UMkAmTCsfa6l6C6e+PUYUjkoe7PqHjIRpCpr2rXe7ufA==
     environmentVariables: {
       }
     healthEndpointScheme: HTTP
