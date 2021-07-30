@@ -1,0 +1,2 @@
+{{- $vals := dict "glob" .Values "app" .Values.applications.microservicesdemoadservice -}}
+{{- include "deployment.app" $vals }}
