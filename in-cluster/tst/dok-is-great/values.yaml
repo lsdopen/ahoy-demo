@@ -1,0 +1,22 @@
+applications:
+  cpspringscaffold:
+    configs: {
+      }
+    dockerConfigJson: AgA7rhAZX2dGfuYtu0abGNLG7E3SILb1vBD55faQkve9R9Ev2619/lBsmPDcl8KurpN4EEGefdkcTll99PFKygb2AXHZBNXHNKHrpxYQ5rp0XzaiZePto3SECD4iFLDxb/0VKWygeSKUJsi+0yHwAN9itX4ob9oRiANLCp3UkLCb/fQdQmGJ+AXwrzNDyRza35yOz22f5WiAyf4hIElVVChdTh7hGHI1i9/OmSh2FNUtxqWdo9ZTSi6639N2IubAvKtsaKTzuOOQBXbraiu1IK2qDBzjO9BGxWjzYs/Q1JkxKE7Oy5ORqicfZRegQZ9TcH0L+0/1HWH1cZmWWHALHQh40zjYi8Trnx34oP542r26RBGPdhlGTMchlFKrh0BvbZ14sYyUgOLcAQ3pAaUa6wjzVtkGTKrQuJ9NyIqn4hpgzl7yRPZ5cQVQVNEQMesx/BY/7rdjewHDlDJRuDlsSDhDKqeyEpb76b/PGrjDxy6Q4UCnXbGlVTONzHd+G3MqbFBvbsgDAOQ+MX0AmBO54L1SwkkaKS7OxxkGJ+YLyCEVxxPN9NMz7vHecwyZE8Sx0iTRz/juOFMZEreT1+QBIz7vOuIYBOHN1QAFlTnzMzi83oqNemw/r8JlWDpZABoPNxmCxUSJoemyB+sw9aWkAARjvDmDME/hCMKIySDBnhiFzvzF6b9PFBRQdEEuYUGjEAQtfQ+oY2DoOKh7WE9GDsWSsFgcUqx2gyWnTfZh1Bf0TzEKfOxbeCKzMwgLEYafUbQcXyuAveihnHQmHLJse4NHseL0boLTuGE1u/CTfD6UHhWgfU0LBi8hNOjyyXXUEuwDyT6hT5zKIr4an8cg34yDfn608w==
+    environmentVariables: {
+      }
+    image: lsdtrip/cp-spring-scaffold:1.0.63
+    name: cp-spring-scaffold
+    replicas: 1
+    secrets: {
+      }
+    servicePorts: [
+      ]
+    tls: false
+    version: 1.0.0
+    volumes: {
+      }
+environment: tst
+host: ahoy.cluster-02.lsdopen.io
+releaseName: dok-is-great
+releaseVersion: '1.0'
